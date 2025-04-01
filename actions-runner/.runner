@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "bob",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+  "gitHubUrl": "https://github.com/vladxdboi/bob",
+  "workFolder": "_work"
+}
