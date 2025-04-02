@@ -48,61 +48,124 @@ jobs:
     runs-on: self-hosted
     needs: deploy-to-dev
     steps:
-      - name: Run tests on Dev
-        run: |
-          echo "Running tests on Dev environment"
-          tests-on-dev
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/course-js-api-framework
+          path: course-js-api-framework
+
+      - name: Installing dependencies
+        run: npm install
+      - name: Running test
+        run: npm run greetings greetings_dev
+        
   deploy-to-staging:
     runs-on: self-hosted
     needs: tests-on-dev
     steps:
-      - name: Deploy to Staging
-        run: |
-          echo "Deploying to Staging environment"
-          deploy-to-staging
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/python-greetings
+          path: python-greetings
+
+      - name: Stop existing service
+        run: pm2 delete "greetings-app-staging" && set "errorlevel=0" 
+      - name: Start application
+        run: pm2 start -n "greetings-app-staging" app.py -- 7002
 
   tests-on-staging:
     runs-on: self-hosted
     needs: deploy-to-staging
     steps:
-      - name: Run tests on Staging
-        run: |
-          echo "Running tests on Staging environment"
-          tests-on-staging
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/course-js-api-framework
+          path: course-js-api-framework
+
+      - name: Installing dependencies
+        run: npm install
+      - name: Running test
+        run: npm run greetings greetings_staging
 
   deploy-to-preprod:
     runs-on: self-hosted
     needs: tests-on-staging
     steps:
-      - name: Deploy to Preprod
-        run: |
-          echo "Deploying to Preprod environment"
-          deploy-to-preprod
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/python-greetings
+          path: python-greetings
+
+      - name: Stop existing service
+        run: pm2 delete "greetings-app-preprod" && set "errorlevel=0" 
+      - name: Start application
+        run: pm2 start -n "greetings-app-preprod" app.py -- 7003
 
   tests-on-preprod:
     runs-on: self-hosted
     needs: deploy-to-preprod
     steps:
-      - name: Run tests on Preprod
-        run: |
-          echo "Running tests on Preprod environment"
-          tests-on-preprod
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/course-js-api-framework
+          path: course-js-api-framework
+
+      - name: Installing dependencies
+        run: npm install
+      - name: Running test
+        run: npm run greetings greetings_preprod
 
   deploy-to-prod:
     runs-on: self-hosted
     needs: tests-on-preprod
     steps:
-      - name: Deploy to Prod
-        run: |
-          echo "Deploying to Prod environment"
-          deploy-to-prod
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/python-greetings
+          path: python-greetings
+
+      - name: Stop existing service
+        run: pm2 delete "greetings-app-prod" && set "errorlevel=0" 
+      - name: Start application
+        run: pm2 start -n "greetings-app-prod" app.py -- 7004
 
   tests-on-prod:
     runs-on: self-hosted
     needs: deploy-to-prod
     steps:
-      - name: Run tests on Prod
-        run: |
-          echo "Running tests on Prod environment"
-          tests-on-prod
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/course-js-api-framework
+          path: course-js-api-framework
+
+      - name: Installing dependencies
+        run: npm install
+      - name: Running test
+        run: npm run greetings greetings_prod
