@@ -1,0 +1,4987 @@
+[2025-04-02 12:31:12Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-02 12:31:12Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:12Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:12Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:31:12Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:12Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:12Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 12:31:12Z INFO Worker] Version: 2.323.0
+[2025-04-02 12:31:12Z INFO Worker] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-02 12:31:12Z INFO Worker] Culture: en-GB
+[2025-04-02 12:31:12Z INFO Worker] UI Culture: en-GB
+[2025-04-02 12:31:12Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-04-02 12:31:12Z INFO ProcessChannel] Receiving message of length 18879, with hash '125fa60ccfe08dc42fc237fabc1841d3cb8afbb2c38b2f47ba0466fb4af0c4ba'
+[2025-04-02 12:31:12Z INFO Worker] Message received.
+[2025-04-02 12:31:13Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/python-greetings.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v4",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 14,
+        "col": 15,
+        "lit": "Checkout repository"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "690b49f3-c1a7-48bb-9b7e-e954d912af40",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v4",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 17,
+        "col": 15,
+        "lit": "Clone python-greetings repository"
+      },
+      "contextName": "__actions_checkout_2",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 20,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 20,
+              "col": 11,
+              "lit": "repository"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 20,
+              "col": 23,
+              "lit": "mtararujs/python-greetings"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 21,
+              "col": 11,
+              "lit": "path"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 21,
+              "col": 17,
+              "lit": "python-greetings"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "5b656382-6677-4c34-b4f4-e6e15c0504ca",
+      "name": "__actions_checkout_2"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 23,
+        "col": 15,
+        "lit": "Install dependencies"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 25,
+              "col": 14,
+              "lit": "echo \"Starting dependency installation...\"\npip3 install -r requirements.txt\n"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 24,
+              "col": 28,
+              "lit": "python-greetings"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "12e3734f-1f08-43ab-8eaf-507a861b487f",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "RunService.FixEmbeddedIssues": {
+      "value": "true"
+    },
+    "actions_skip_retry_complete_job_upon_known_errors": {
+      "value": "true"
+    },
+    "actions_uses_cache_service_v2": {
+      "value": "true"
+    },
+    "github_token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.from_run_service": {
+      "value": "true"
+    },
+    "system.github.job": {
+      "value": "install-pip-deps"
+    },
+    "system.github.launch_endpoint": {
+      "value": "https://launch.actions.githubusercontent.com"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "true"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.orchestrationId": {
+      "value": "688e7338-0641-41b6-a4a1-b8b2a15b18e2.install-pip-deps.__default"
+    },
+    "system.phaseDisplayName": {
+      "value": "install-pip-deps"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    }
+  },
+  "messageType": "RunnerJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "actions",
+    "version": 0,
+    "planId": "688e7338-0641-41b6-a4a1-b8b2a15b18e2",
+    "planGroup": null,
+    "artifactUri": null,
+    "artifactLocation": null,
+    "definition": null,
+    "owner": null
+  },
+  "timeline": {
+    "id": "688e7338-0641-41b6-a4a1-b8b2a15b18e2",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "0196f29c-b2a4-5f3e-ac91-99766ae3fcbc",
+  "jobDisplayName": "install-pip-deps",
+  "jobName": "__default",
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "",
+          "ServerName": "",
+          "CacheServerUrl": "https://acghubeus1.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+          "FeedStreamUrl": "wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "PipelinesServiceUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+          "GenerateIdTokenUrl": ""
+        },
+        "name": "SystemVssConnection",
+        "url": "https://run-actions-2-azure-eastus.actions.githubusercontent.com/45/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": "***"
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+        },
+        {
+          "k": "repository",
+          "v": "vladxdboi/bob"
+        },
+        {
+          "k": "repository_owner",
+          "v": "vladxdboi"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "47676811"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/vladxdboi/bob.git"
+        },
+        {
+          "k": "run_id",
+          "v": "14219533866"
+        },
+        {
+          "k": "run_number",
+          "v": "6"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "2"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "private"
+        },
+        {
+          "k": "actor_id",
+          "v": "47676811"
+        },
+        {
+          "k": "actor",
+          "v": "vladxdboi"
+        },
+        {
+          "k": "workflow",
+          "v": "bob"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "64a0be6003c2688899ab7a3b452302fee2de4f71"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "47676811+vladxdboi@users.noreply.github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Vladislavs Senevics"
+                              },
+                              {
+                                "k": "username",
+                                "v": "vladxdboi"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update python-greetings.yml"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2025-04-02T15:24:49+03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "a4d29e87383bf72462e980ab2765aa72ca4f4117"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/vladxdboi/bob/commit/8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/vladxdboi/bob/compare/64a0be6003c2...8a1ad2ce6edb"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "47676811+vladxdboi@users.noreply.github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Vladislavs Senevics"
+                          },
+                          {
+                            "k": "username",
+                            "v": "vladxdboi"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "noreply@github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "GitHub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "web-flow"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Update python-greetings.yml"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2025-04-02T15:24:49+03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "a4d29e87383bf72462e980ab2765aa72ca4f4117"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/vladxdboi/bob/commit/8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "47676811+vladxdboi@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "vladxdboi"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1743515216.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "vladxdboi/bob"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "id",
+                      "v": 958619869.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "bob"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOOSNg3Q"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/47676811?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "47676811+vladxdboi@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/vladxdboi/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/vladxdboi/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/vladxdboi/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/vladxdboi/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/vladxdboi"
+                          },
+                          {
+                            "k": "id",
+                            "v": 47676811.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "vladxdboi"
+                          },
+                          {
+                            "k": "name",
+                            "v": "vladxdboi"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjQ3Njc2ODEx"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/vladxdboi/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/vladxdboi/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/vladxdboi/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/vladxdboi/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/vladxdboi/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/vladxdboi"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": true
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1743596689.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 122814.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2025-04-02T12:18:13Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "private"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/47676811?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/vladxdboi/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/vladxdboi/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/vladxdboi/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/vladxdboi/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/vladxdboi"
+                    },
+                    {
+                      "k": "id",
+                      "v": 47676811.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "vladxdboi"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjQ3Njc2ODEx"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/vladxdboi/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/vladxdboi/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/vladxdboi/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/vladxdboi/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/vladxdboi/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/vladxdboi"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "workflow_ref",
+          "v": "vladxdboi/bob/.github/workflows/python-greetings.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+        },
+        {
+          "k": "repository_id",
+          "v": "958619869"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "vladxdboi"
+        }
+      ]
+    },
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "needs": {
+      "t": 2
+    },
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    }
+  },
+  "billingOwnerId": "U_kgDOAtd9iw"
+}
+[2025-04-02 12:31:13Z INFO JobRunner] Job ID 0196f29c-b2a4-5f3e-ac91-99766ae3fcbc
+[2025-04-02 12:31:13Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.dll
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] binPath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] RootFolder: C:\Users\vladi\Documents\GitHub\bob\actions-runner
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] ConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] CredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'Service': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service'
+[2025-04-02 12:31:13Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service
+[2025-04-02 12:31:13Z INFO ConfigurationStore] Read setting file: 293 chars
+[2025-04-02 12:31:13Z INFO JobRunner] Initializing launch client
+[2025-04-02 12:31:13Z INFO JobServerQueue] Initializing results client
+[2025-04-02 12:31:13Z INFO ResultServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2025-04-02 12:31:13Z INFO ResultServer] Attempting to start websocket client with delay 00:00:00.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Start process web console line queue.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Start process file upload queue.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Start results file upload queue.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-04-02 12:31:13Z INFO JobServerQueue] Start process timeline update queue.
+[2025-04-02 12:31:13Z INFO ExecutionContext] Initialize GitHub context
+[2025-04-02 12:31:13Z INFO ExecutionContext] Initialize Env context
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:13Z INFO JobRunner] Starting the job execution context.
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO JobRunner] Validating directory permissions for: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Tools': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_tool'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:13Z INFO JobRunner] Getting job extension.
+[2025-04-02 12:31:13Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.setup_info'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_PipelineMapping\vladxdboi/bob\PipelineFolder.json
+[2025-04-02 12:31:13Z INFO PipelineDirectoryManager] Updating job run properties.
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO JobExtension] Downloading actions
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:13Z INFO Worker] Listening for cancel message from the channel.
+[2025-04-02 12:31:13Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-04-02 12:31:13Z INFO ResultServer] Successfully started websocket client.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record '51e17d82-75d9-44ef-bf8a-121ac49ad688', success rate: 1/1.
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:13Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:13Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/zipball/11bd71901bbe5b1630ceea73d27597364c9af683' into C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\_temp_15c43bc1-06c4-437f-8f34-90fe1294fd18\3b442f37-07d3-4f16-86c8-6e52adb8f77d.zip.
+[2025-04-02 12:31:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record '51e17d82-75d9-44ef-bf8a-121ac49ad688', success rate: 1/1.
+[2025-04-02 12:31:14Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2025-04-02 12:31:14Z INFO ActionManager] Request URL: https://api.github.com/repos/actions/checkout/zipball/11bd71901bbe5b1630ceea73d27597364c9af683 X-GitHub-Request-Id: CDDE:723DE:5DD415:6BDE5E:67ED2E11 Http Status: OK
+[2025-04-02 12:31:15Z INFO ActionManager] Finished getting action repository.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:15Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:15Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:15Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:15Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:15Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:15Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO JobExtension] Adding .
+[2025-04-02 12:31:15Z INFO JobExtension] Adding .
+[2025-04-02 12:31:15Z INFO JobExtension] Adding .
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '51e17d82-75d9-44ef-bf8a-121ac49ad688', success rate: 1/1.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO JobExtension] Total accessible running process: 254.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO JobExtension] Start checking service connectivity in background.
+[2025-04-02 12:31:15Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "51e17d82-75d9-44ef-bf8a-121ac49ad688",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 3,
+  "startTime": "2025-04-02T12:31:13.1507283Z",
+  "finishTime": "2025-04-02T12:31:15.7543219Z"
+}.
+[2025-04-02 12:31:15Z INFO JobRunner] Total job steps: 3.
+[2025-04-02 12:31:15Z INFO JobRunner] Run all job steps.
+[2025-04-02 12:31:15Z INFO StepsRunner] Processing step: DisplayName='Checkout repository'
+[2025-04-02 12:31:15Z INFO StepsRunner] Evaluating: success()
+[2025-04-02 12:31:15Z INFO StepsRunner] Result: true
+[2025-04-02 12:31:15Z INFO StepsRunner] Starting the step.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO StepsRunner] Which2: 'chcp'
+[2025-04-02 12:31:15Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] Process started with process id 11516, waiting for process exit.
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] Finished process 11516 with exit code 0, and elapsed time 00:00:00.0162752.
+[2025-04-02 12:31:15Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:15Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:15Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:15Z INFO ExecutionContext] Reserve record order 5 to 8 for post job actions.
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:15Z INFO ExecutionContext] Write event payload to C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:15Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "vladxdboi/bob"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'ssh-user': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 51,
+  "col": 14,
+  "lit": "git"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 54,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 59,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'filter': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 69,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 76,
+  "col": 14,
+  "lit": "1"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 79,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'show-progress': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 94,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 97,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:15Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-04-02 12:31:15Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command error
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command group
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-04-02 12:31:15Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:15Z INFO HostContext] Well known directory 'Externals': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals\node20\bin\node.exe'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4\dist/index.js"'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\bob\bob'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:15Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '690b49f3-c1a7-48bb-9b7e-e954d912af40', success rate: 1/1.
+[2025-04-02 12:31:16Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:16Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_51e17d82-75d9-44ef-bf8a-121ac49ad688.1
+[2025-04-02 12:31:16Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-04-02 12:31:16Z INFO ProcessInvokerWrapper] Process started with process id 14516, waiting for process exit.
+[2025-04-02 12:31:17Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2025-04-02 12:31:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '690b49f3-c1a7-48bb-9b7e-e954d912af40', success rate: 1/1.
+[2025-04-02 12:31:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:25Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '690b49f3-c1a7-48bb-9b7e-e954d912af40', success rate: 1/1.
+[2025-04-02 12:31:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '690b49f3-c1a7-48bb-9b7e-e954d912af40', success rate: 1/1.
+[2025-04-02 12:31:35Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:35Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:35Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:45Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:47Z INFO JobServerQueue] Try to append 1 batches web console lines for record '690b49f3-c1a7-48bb-9b7e-e954d912af40', success rate: 1/1.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Finished process 14516 with exit code 0, and elapsed time 00:00:32.7824443.
+[2025-04-02 12:31:48Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_runner_file_commands\step_summary_7942045b-e811-41c8-94ab-75bde36ef971) is empty; skipping attachment upload
+[2025-04-02 12:31:48Z INFO StepsRunner] Step result: 
+[2025-04-02 12:31:48Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v4",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "690b49f3-c1a7-48bb-9b7e-e954d912af40",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 33,
+  "startTime": "2025-04-02T12:31:15.7707237Z",
+  "finishTime": "2025-04-02T12:31:48.6715956Z"
+}.
+[2025-04-02 12:31:48Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-04-02 12:31:48Z INFO StepsRunner] Current state: job state = ''
+[2025-04-02 12:31:48Z INFO StepsRunner] Processing step: DisplayName='Clone python-greetings repository'
+[2025-04-02 12:31:48Z INFO StepsRunner] Evaluating: success()
+[2025-04-02 12:31:48Z INFO StepsRunner] Result: true
+[2025-04-02 12:31:48Z INFO StepsRunner] Starting the step.
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO StepsRunner] Which2: 'chcp'
+[2025-04-02 12:31:48Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Process started with process id 2408, waiting for process exit.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Finished process 2408 with exit code 0, and elapsed time 00:00:00.0101322.
+[2025-04-02 12:31:48Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:48Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:48Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:48Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:48Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:48Z INFO ExecutionContext] Write event payload to C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:48Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'ssh-user': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 51,
+  "col": 14,
+  "lit": "git"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 54,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 59,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'filter': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 69,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 76,
+  "col": 14,
+  "lit": "1"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 79,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'show-progress': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 94,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 97,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:48Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-04-02 12:31:48Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command error
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command group
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-04-02 12:31:48Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:48Z INFO HostContext] Well known directory 'Externals': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals\node20\bin\node.exe'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4\dist/index.js"'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\bob\bob'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:48Z INFO ProcessInvokerWrapper] Process started with process id 6704, waiting for process exit.
+[2025-04-02 12:31:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5b656382-6677-4c34-b4f4-e6e15c0504ca', success rate: 1/1.
+[2025-04-02 12:31:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5b656382-6677-4c34-b4f4-e6e15c0504ca', success rate: 1/1.
+[2025-04-02 12:31:49Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-04-02 12:31:49Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:49Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_690b49f3-c1a7-48bb-9b7e-e954d912af40.1
+[2025-04-02 12:31:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5b656382-6677-4c34-b4f4-e6e15c0504ca', success rate: 1/1.
+[2025-04-02 12:31:49Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2025-04-02 12:31:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5b656382-6677-4c34-b4f4-e6e15c0504ca', success rate: 1/1.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Finished process 6704 with exit code 0, and elapsed time 00:00:02.1263315.
+[2025-04-02 12:31:50Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_runner_file_commands\step_summary_3aeb9d96-af81-4993-8f56-9b4487123c52) is empty; skipping attachment upload
+[2025-04-02 12:31:50Z INFO StepsRunner] Step result: 
+[2025-04-02 12:31:50Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v4",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "5b656382-6677-4c34-b4f4-e6e15c0504ca",
+  "stepContextName": "__actions_checkout_2",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 3,
+  "startTime": "2025-04-02T12:31:48.6734698Z",
+  "finishTime": "2025-04-02T12:31:50.8464688Z"
+}.
+[2025-04-02 12:31:50Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-04-02 12:31:50Z INFO StepsRunner] Current state: job state = ''
+[2025-04-02 12:31:50Z INFO StepsRunner] Processing step: DisplayName='Install dependencies'
+[2025-04-02 12:31:50Z INFO StepsRunner] Evaluating: success()
+[2025-04-02 12:31:50Z INFO StepsRunner] Result: true
+[2025-04-02 12:31:50Z INFO StepsRunner] Starting the step.
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:50Z INFO StepsRunner] Which2: 'chcp'
+[2025-04-02 12:31:50Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Process started with process id 14060, waiting for process exit.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Finished process 14060 with exit code 0, and elapsed time 00:00:00.0084165.
+[2025-04-02 12:31:50Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:50Z INFO ExecutionContext] Write event payload to C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:50Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-04-02 12:31:50Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command error
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command group
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-04-02 12:31:50Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-04-02 12:31:50Z INFO ScriptHandler] Which2: 'pwsh'
+[2025-04-02 12:31:50Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2025-04-02 12:31:50Z INFO ScriptHandler] Defaulting to powershell
+[2025-04-02 12:31:50Z INFO ScriptHandler] Which2: 'powershell'
+[2025-04-02 12:31:50Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:50Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:50Z INFO ScriptHandler] Which2: 'pwsh'
+[2025-04-02 12:31:50Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2025-04-02 12:31:50Z INFO ScriptHandler] Defaulting to powershell
+[2025-04-02 12:31:50Z INFO ScriptHandler] Which2: 'powershell'
+[2025-04-02 12:31:50Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\c758d81e-112c-4a4b-8737-fbee95b984ec.ps1'"'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\bob\bob\python-greetings'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:50Z INFO ProcessInvokerWrapper] Process started with process id 10080, waiting for process exit.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5b656382-6677-4c34-b4f4-e6e15c0504ca', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12e3734f-1f08-43ab-8eaf-507a861b487f', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12e3734f-1f08-43ab-8eaf-507a861b487f', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Finished process 10080 with exit code 1, and elapsed time 00:00:00.4494999.
+[2025-04-02 12:31:51Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_runner_file_commands\step_summary_79257c9c-497d-46c0-b000-75e3e7faa93b) is empty; skipping attachment upload
+[2025-04-02 12:31:51Z INFO StepsRunner] Step result: Failed
+[2025-04-02 12:31:51Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "12e3734f-1f08-43ab-8eaf-507a861b487f",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-04-02T12:31:50.8481699Z",
+  "finishTime": "2025-04-02T12:31:51.3431575Z"
+}.
+[2025-04-02 12:31:51Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-04-02 12:31:51Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-04-02 12:31:51Z INFO StepsRunner] Processing step: DisplayName='Post Clone python-greetings repository'
+[2025-04-02 12:31:51Z INFO StepsRunner] Evaluating: always()
+[2025-04-02 12:31:51Z INFO StepsRunner] Result: true
+[2025-04-02 12:31:51Z INFO StepsRunner] Starting the step.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO StepsRunner] Which2: 'chcp'
+[2025-04-02 12:31:51Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Process started with process id 6672, waiting for process exit.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Finished process 6672 with exit code 0, and elapsed time 00:00:00.0076725.
+[2025-04-02 12:31:51Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:51Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:51Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:51Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:51Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:51Z INFO ExecutionContext] Write event payload to C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:51Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-user': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 51,
+  "col": 14,
+  "lit": "git"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 54,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 59,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'filter': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 69,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 76,
+  "col": 14,
+  "lit": "1"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 79,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'show-progress': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 94,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 97,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command error
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command group
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Externals': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals\node20\bin\node.exe'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4\dist/index.js"'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\bob\bob'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Process started with process id 7244, waiting for process exit.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12e3734f-1f08-43ab-8eaf-507a861b487f', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'cb278ffa-f11c-464e-8011-0272a176d50a', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Finished process 7244 with exit code 0, and elapsed time 00:00:00.1874740.
+[2025-04-02 12:31:51Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_runner_file_commands\step_summary_cbe38ccf-4c85-4fc6-b4c0-cf9dc6a97efa) is empty; skipping attachment upload
+[2025-04-02 12:31:51Z INFO StepsRunner] Step result: 
+[2025-04-02 12:31:51Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v4",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "cb278ffa-f11c-464e-8011-0272a176d50a",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-04-02T12:31:51.3472423Z",
+  "finishTime": "2025-04-02T12:31:51.5634441Z"
+}.
+[2025-04-02 12:31:51Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-04-02 12:31:51Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-04-02 12:31:51Z INFO StepsRunner] Processing step: DisplayName='Post Checkout repository'
+[2025-04-02 12:31:51Z INFO StepsRunner] Evaluating: always()
+[2025-04-02 12:31:51Z INFO StepsRunner] Result: true
+[2025-04-02 12:31:51Z INFO StepsRunner] Starting the step.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO StepsRunner] Which2: 'chcp'
+[2025-04-02 12:31:51Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Process started with process id 3008, waiting for process exit.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Finished process 3008 with exit code 0, and elapsed time 00:00:00.0081936.
+[2025-04-02 12:31:51Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:51Z INFO ActionManager] Load action that reference repository from 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "ssh-user"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 14,
+          "lit": "git"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 52,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 54,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 57,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 3,
+          "lit": "filter"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 69,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 76,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 77,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 79,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 80,
+          "col": 3,
+          "lit": "show-progress"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 94,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 95,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 97,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 98,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node20",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-04-02 12:31:51Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-04-02 12:31:51Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-04-02 12:31:51Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:51Z INFO ExecutionContext] Write event payload to C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_github_workflow\event.json
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:31:51Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "vladxdboi/bob"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'ssh-user': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 51,
+  "col": 14,
+  "lit": "git"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 54,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 59,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'filter': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 69,
+  "col": 14,
+  "lit": ""
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 76,
+  "col": 14,
+  "lit": "1"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 79,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'show-progress': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 94,
+  "col": 14,
+  "lit": "false"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 97,
+  "col": 14,
+  "lit": "true"
+}
+[2025-04-02 12:31:51Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-04-02 12:31:51Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command error
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command group
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-04-02 12:31:51Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Externals': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\externals\node20\bin\node.exe'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions\actions\checkout\v4\dist/index.js"'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\bob\bob'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Process started with process id 7724, waiting for process exit.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 12:31:51Z INFO ProcessInvokerWrapper] Finished process 7724 with exit code 0, and elapsed time 00:00:00.1906506.
+[2025-04-02 12:31:51Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp\_runner_file_commands\step_summary_ea63a6df-f952-44c2-bc80-cc11cb7de1c9) is empty; skipping attachment upload
+[2025-04-02 12:31:51Z INFO StepsRunner] Step result: 
+[2025-04-02 12:31:51Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v4",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "63ff758f-f901-4041-a2f1-e7a22ae0a3da",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-04-02T12:31:51.5651109Z",
+  "finishTime": "2025-04-02T12:31:51.7813967Z"
+}.
+[2025-04-02 12:31:51Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-04-02 12:31:51Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-04-02 12:31:51Z INFO JobRunner] Finalize job.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63ff758f-f901-4041-a2f1-e7a22ae0a3da', success rate: 1/1.
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:51Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:51Z INFO JobExtension] Initialize Env context
+[2025-04-02 12:31:51Z INFO JobExtension] Initialize steps context
+[2025-04-02 12:31:51Z INFO JobExtension] Total accessible running process: 253.
+[2025-04-02 12:31:51Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "a5ba9639-dd34-411e-8d46-e713bf98f066",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-04-02T12:31:51.7878307Z",
+  "finishTime": "2025-04-02T12:31:51.7982567Z"
+}.
+[2025-04-02 12:31:51Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-04-02 12:31:51Z INFO JobRunner] Completing the job execution context.
+[2025-04-02 12:31:51Z INFO JobRunner] Shutting down the job server queue.
+[2025-04-02 12:31:51Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-04-02 12:31:52Z INFO JobServerQueue] All queue process task stopped.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a5ba9639-dd34-411e-8d46-e713bf98f066', success rate: 1/1.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Web console line queue drained.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Uploading 4 files in one shot.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Try to upload 4 log files or attachments, success rate: 4/4.
+[2025-04-02 12:31:52Z INFO JobServerQueue] File upload queue drained.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-04-02 12:31:52Z INFO JobServerQueue] Uploading 6 file(s) in one shot through results service.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_5b656382-6677-4c34-b4f4-e6e15c0504ca.1
+[2025-04-02 12:31:52Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:52Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_12e3734f-1f08-43ab-8eaf-507a861b487f.1
+[2025-04-02 12:31:53Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:53Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_cb278ffa-f11c-464e-8011-0272a176d50a.1
+[2025-04-02 12:31:53Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:53Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_63ff758f-f901-4041-a2f1-e7a22ae0a3da.1
+[2025-04-02 12:31:53Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:53Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_a5ba9639-dd34-411e-8d46-e713bf98f066.1
+[2025-04-02 12:31:54Z INFO JobServerQueue] Got a job log file to send to results service.
+[2025-04-02 12:31:54Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\688e7338-0641-41b6-a4a1-b8b2a15b18e2_0196f29c-b2a4-5f3e-ac91-99766ae3fcbc.1
+[2025-04-02 12:31:54Z INFO JobServerQueue] Tried to upload 6 file(s) to results, success rate: 6/6.
+[2025-04-02 12:31:54Z INFO JobServerQueue] Results upload queue drained.
+[2025-04-02 12:31:54Z INFO JobServerQueue] Timeline update queue drained.
+[2025-04-02 12:31:54Z INFO JobServerQueue] Disposing job server ...
+[2025-04-02 12:31:54Z INFO JobServerQueue] Disposing results server ...
+[2025-04-02 12:31:54Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-04-02 12:31:54Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp
+[2025-04-02 12:31:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:54Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:54Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\.telemetry'
+[2025-04-02 12:31:54Z INFO JobRunner] Raising job completed against run service
+[2025-04-02 12:31:55Z INFO Worker] Job completed.

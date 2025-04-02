@@ -1,0 +1,1411 @@
+[2025-04-02 12:30:58Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-02 12:30:58Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:58Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:58Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:30:58Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:58Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:58Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 12:30:58Z INFO Worker] Version: 2.323.0
+[2025-04-02 12:30:58Z INFO Worker] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-02 12:30:58Z INFO Worker] Culture: en-GB
+[2025-04-02 12:30:58Z INFO Worker] UI Culture: en-GB
+[2025-04-02 12:30:58Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-04-02 12:30:58Z INFO ProcessChannel] Receiving message of length 18878, with hash '637f9c31020503a86870ef120977d86b9c8026b9fc8583f0b46ab80a61680ef3'
+[2025-04-02 12:30:58Z INFO Worker] Message received.
+[2025-04-02 12:30:59Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/python-greetings.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v4",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 14,
+        "col": 15,
+        "lit": "Checkout repository"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "7ef3a912-1826-44b8-9101-e94816e2a9fe",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v4",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 17,
+        "col": 15,
+        "lit": "Clone python-greetings repository"
+      },
+      "contextName": "__actions_checkout_2",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 20,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 20,
+              "col": 11,
+              "lit": "repository"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 20,
+              "col": 23,
+              "lit": "mtararujs/python-greetings"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 21,
+              "col": 11,
+              "lit": "path"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 21,
+              "col": 17,
+              "lit": "python-greetings"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "121cab2c-9f95-4f38-9cf5-422f6c7ca706",
+      "name": "__actions_checkout_2"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 23,
+        "col": 15,
+        "lit": "Install dependencies"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 25,
+              "col": 14,
+              "lit": "echo \"Starting dependency installation...\"\npip3 install -r requirements.txt\n"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 24,
+              "col": 28,
+              "lit": "python-greetings"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "dff8c01e-f7a7-43f2-b814-c4d3497df492",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "RunService.FixEmbeddedIssues": {
+      "value": "true"
+    },
+    "actions_skip_retry_complete_job_upon_known_errors": {
+      "value": "true"
+    },
+    "actions_uses_cache_service_v2": {
+      "value": "true"
+    },
+    "github_token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.from_run_service": {
+      "value": "true"
+    },
+    "system.github.job": {
+      "value": "install-pip-deps"
+    },
+    "system.github.launch_endpoint": {
+      "value": "https://launch.actions.githubusercontent.com"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "true"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.orchestrationId": {
+      "value": "299ad87c-fa1a-4165-a608-e3718daa0e67.install-pip-deps.__default"
+    },
+    "system.phaseDisplayName": {
+      "value": "install-pip-deps"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    }
+  },
+  "messageType": "RunnerJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "actions",
+    "version": 0,
+    "planId": "299ad87c-fa1a-4165-a608-e3718daa0e67",
+    "planGroup": null,
+    "artifactUri": null,
+    "artifactLocation": null,
+    "definition": null,
+    "owner": null
+  },
+  "timeline": {
+    "id": "299ad87c-fa1a-4165-a608-e3718daa0e67",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "83811444-589c-512a-a226-f80da05a4149",
+  "jobDisplayName": "install-pip-deps",
+  "jobName": "__default",
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "",
+          "ServerName": "",
+          "CacheServerUrl": "https://acghubeus1.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+          "FeedStreamUrl": "wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "PipelinesServiceUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+          "GenerateIdTokenUrl": ""
+        },
+        "name": "SystemVssConnection",
+        "url": "https://run-actions-1-azure-eastus.actions.githubusercontent.com/2/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": "***"
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+        },
+        {
+          "k": "repository",
+          "v": "vladxdboi/bob"
+        },
+        {
+          "k": "repository_owner",
+          "v": "vladxdboi"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "47676811"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/vladxdboi/bob.git"
+        },
+        {
+          "k": "run_id",
+          "v": "14219533866"
+        },
+        {
+          "k": "run_number",
+          "v": "6"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "private"
+        },
+        {
+          "k": "actor_id",
+          "v": "47676811"
+        },
+        {
+          "k": "actor",
+          "v": "vladxdboi"
+        },
+        {
+          "k": "workflow",
+          "v": "bob"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "64a0be6003c2688899ab7a3b452302fee2de4f71"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "47676811+vladxdboi@users.noreply.github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Vladislavs Senevics"
+                              },
+                              {
+                                "k": "username",
+                                "v": "vladxdboi"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update python-greetings.yml"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2025-04-02T15:24:49+03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "a4d29e87383bf72462e980ab2765aa72ca4f4117"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/vladxdboi/bob/commit/8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/vladxdboi/bob/compare/64a0be6003c2...8a1ad2ce6edb"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "47676811+vladxdboi@users.noreply.github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Vladislavs Senevics"
+                          },
+                          {
+                            "k": "username",
+                            "v": "vladxdboi"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "noreply@github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "GitHub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "web-flow"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Update python-greetings.yml"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2025-04-02T15:24:49+03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "a4d29e87383bf72462e980ab2765aa72ca4f4117"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/vladxdboi/bob/commit/8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "47676811+vladxdboi@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "vladxdboi"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1743515216.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "vladxdboi/bob"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "id",
+                      "v": 958619869.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "bob"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOOSNg3Q"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/47676811?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "47676811+vladxdboi@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/vladxdboi/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/vladxdboi/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/vladxdboi/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/vladxdboi/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/vladxdboi"
+                          },
+                          {
+                            "k": "id",
+                            "v": 47676811.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "vladxdboi"
+                          },
+                          {
+                            "k": "name",
+                            "v": "vladxdboi"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjQ3Njc2ODEx"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/vladxdboi/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/vladxdboi/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/vladxdboi/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/vladxdboi/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/vladxdboi/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/vladxdboi"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": true
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1743596689.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 122814.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:vladxdboi/bob.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/vladxdboi/bob/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2025-04-02T12:18:13Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/vladxdboi/bob"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "private"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/47676811?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/vladxdboi/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/vladxdboi/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/vladxdboi/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/vladxdboi/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/vladxdboi"
+                    },
+                    {
+                      "k": "id",
+                      "v": 47676811.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "vladxdboi"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjQ3Njc2ODEx"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/vladxdboi/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/vladxdboi/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/vladxdboi/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/vladxdboi/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/vladxdboi/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/vladxdboi"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "workflow_ref",
+          "v": "vladxdboi/bob/.github/workflows/python-greetings.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "8a1ad2ce6edbbdd1a3e49113fd5b2e2587d24968"
+        },
+        {
+          "k": "repository_id",
+          "v": "958619869"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "vladxdboi"
+        }
+      ]
+    },
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "needs": {
+      "t": 2
+    },
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    }
+  },
+  "billingOwnerId": "U_kgDOAtd9iw"
+}
+[2025-04-02 12:30:59Z INFO JobRunner] Job ID 83811444-589c-512a-a226-f80da05a4149
+[2025-04-02 12:30:59Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.dll
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] binPath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] RootFolder: C:\Users\vladi\Documents\GitHub\bob\actions-runner
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] ConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] CredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'Service': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service'
+[2025-04-02 12:30:59Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service
+[2025-04-02 12:30:59Z INFO ConfigurationStore] Read setting file: 293 chars
+[2025-04-02 12:30:59Z INFO JobRunner] Initializing launch client
+[2025-04-02 12:30:59Z INFO JobServerQueue] Initializing results client
+[2025-04-02 12:30:59Z INFO ResultServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2025-04-02 12:30:59Z INFO ResultServer] Attempting to start websocket client with delay 00:00:00.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Start process web console line queue.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Start process file upload queue.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Start results file upload queue.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-04-02 12:30:59Z INFO JobServerQueue] Start process timeline update queue.
+[2025-04-02 12:30:59Z INFO ExecutionContext] Initialize GitHub context
+[2025-04-02 12:30:59Z INFO ExecutionContext] Initialize Env context
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:30:59Z INFO JobRunner] Starting the job execution context.
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO JobRunner] Validating directory permissions for: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Tools': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_tool'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Temp': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp'
+[2025-04-02 12:30:59Z INFO JobRunner] Getting job extension.
+[2025-04-02 12:30:59Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.setup_info'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_PipelineMapping\vladxdboi/bob\PipelineFolder.json
+[2025-04-02 12:30:59Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO JobExtension] Downloading actions
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work'
+[2025-04-02 12:30:59Z INFO HostContext] Well known directory 'Actions': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_actions'
+[2025-04-02 12:30:59Z INFO Worker] Listening for cancel message from the channel.
+[2025-04-02 12:30:59Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-04-02 12:30:59Z INFO ResultServer] Successfully started websocket client.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0d4b3f2e-d589-4d95-9a84-a4655c780c1a', success rate: 1/1.
+[2025-04-02 12:30:59Z INFO ProcessChannel] Receiving message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2025-04-02 12:30:59Z INFO Worker] Cancellation/Shutdown message received.
+[2025-04-02 12:30:59Z WARN GitHubActionsService] POST request to https://launch.actions.githubusercontent.com/actions/build/299ad87c-fa1a-4165-a608-e3718daa0e67/jobs/83811444-589c-512a-a226-f80da05a4149/runnerresolve/actions has been cancelled.
+[2025-04-02 12:30:59Z ERR  JobExtension] Caught cancellation exception from JobExtension Initialization: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Launch.Client.LaunchHttpClient.GetLaunchSignedURLResponse[R,T](Uri uri, R request, CancellationToken cancellationToken)
+   at GitHub.Services.Launch.Client.LaunchHttpClient.GetResolveActionsDownloadInfoAsync(Guid planId, Guid jobId, ActionReferenceList actionReferenceList, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+[2025-04-02 12:30:59Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "0d4b3f2e-d589-4d95-9a84-a4655c780c1a",
+  "result": "canceled",
+  "errorMessages": [
+    "A task was canceled."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-04-02T12:30:59.2861971Z",
+  "finishTime": "2025-04-02T12:30:59.8070025Z"
+}.
+[2025-04-02 12:30:59Z ERR  JobRunner] Job is cancelled during initialize.
+[2025-04-02 12:30:59Z ERR  JobRunner] Caught exception: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Launch.Client.LaunchHttpClient.GetLaunchSignedURLResponse[R,T](Uri uri, R request, CancellationToken cancellationToken)
+   at GitHub.Services.Launch.Client.LaunchHttpClient.GetResolveActionsDownloadInfoAsync(Guid planId, Guid jobId, ActionReferenceList actionReferenceList, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+   at GitHub.Runner.Worker.JobRunner.RunAsync(AgentJobRequestMessage message, CancellationToken jobRequestCancellationToken)
+[2025-04-02 12:30:59Z INFO JobRunner] Shutting down the job server queue.
+[2025-04-02 12:30:59Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2025-04-02 12:31:00Z INFO JobServerQueue] All queue process task stopped.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0d4b3f2e-d589-4d95-9a84-a4655c780c1a', success rate: 1/1.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Web console line queue drained.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2025-04-02 12:31:00Z INFO JobServerQueue] File upload queue drained.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-04-02 12:31:00Z INFO JobServerQueue] Uploading 2 file(s) in one shot through results service.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-04-02 12:31:00Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\299ad87c-fa1a-4165-a608-e3718daa0e67_0d4b3f2e-d589-4d95-9a84-a4655c780c1a.1
+[2025-04-02 12:31:01Z INFO JobServerQueue] Got a job log file to send to results service.
+[2025-04-02 12:31:01Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\blocks\299ad87c-fa1a-4165-a608-e3718daa0e67_83811444-589c-512a-a226-f80da05a4149.1
+[2025-04-02 12:31:02Z INFO JobServerQueue] Tried to upload 2 file(s) to results, success rate: 2/2.
+[2025-04-02 12:31:02Z INFO JobServerQueue] Results upload queue drained.
+[2025-04-02 12:31:02Z INFO JobServerQueue] Timeline update queue drained.
+[2025-04-02 12:31:02Z INFO JobServerQueue] Disposing job server ...
+[2025-04-02 12:31:02Z INFO JobServerQueue] Disposing results server ...
+[2025-04-02 12:31:02Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-04-02 12:31:02Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\vladi\Documents\GitHub\bob\actions-runner\_work\_temp
+[2025-04-02 12:31:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 12:31:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 12:31:02Z INFO HostContext] Well known directory 'Diag': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag'
+[2025-04-02 12:31:02Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\_diag\.telemetry'
+[2025-04-02 12:31:02Z INFO JobRunner] Raising job completed against run service

@@ -1,0 +1,290 @@
+[2025-04-02 17:12:52Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-02 17:12:52Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:52Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:52Z INFO HostContext] Well known config file 'Credentials': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'Runner': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 17:12:53Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-04-02 17:12:53Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2025-04-02 17:12:53Z INFO Listener] Version: 2.323.0
+[2025-04-02 17:12:53Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-02 17:12:53Z INFO Listener] Culture: en-GB
+[2025-04-02 17:12:53Z INFO Listener] UI Culture: en-GB
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO Listener] Validating directory permissions for: 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO CommandLineParser] Parse
+[2025-04-02 17:12:53Z INFO CommandLineParser] Parsing 1 args
+[2025-04-02 17:12:53Z INFO CommandLineParser] parsing argument
+[2025-04-02 17:12:53Z INFO CommandLineParser] HasArgs: False
+[2025-04-02 17:12:53Z INFO CommandLineParser] Adding Command: run
+[2025-04-02 17:12:53Z INFO Listener] Arguments parsed
+[2025-04-02 17:12:53Z INFO Runner] ExecuteCommand
+[2025-04-02 17:12:53Z INFO ConfigurationStore] currentAssemblyLocation: c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Listener.dll
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] binPath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] RootFolder: c:\Users\vladi\Documents\GitHub\bob\actions-runner
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'Runner': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] ConfigFilePath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'MigratedRunner': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] MigratedConfigFilePath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'Credentials': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] CredFilePath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'MigratedCredentials': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] MigratedCredFilePath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'Service': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.service'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] ServiceConfigFilePath: c:\Users\vladi\Documents\GitHub\bob\actions-runner\.service
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'help': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'version': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'check': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Command 'configure': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Command 'remove': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-04-02 17:12:53Z INFO ConfigurationManager] LoadSettings
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 17:12:53Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 17:12:53Z INFO ConfigurationStore] Read setting file: 293 chars
+[2025-04-02 17:12:53Z INFO ConfigurationManager] Settings Loaded
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-02 17:12:53Z INFO CommandSettings] Command 'run': 'True'
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 17:12:53Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 17:12:53Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-04-02 17:12:53Z INFO Runner] Set runner startup type - Manual
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-02 17:12:53Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-02 17:12:53Z INFO Runner] RunAsync
+[2025-04-02 17:12:53Z INFO ConfigurationManager] LoadSettings
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 17:12:53Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 17:12:53Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 17:12:53Z INFO ConfigurationManager] Settings Loaded
+[2025-04-02 17:12:53Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "bobs",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+  "GitHubUrl": "https://github.com/vladxdboi/bob",
+  "WorkFolder": "_work"
+}
+[2025-04-02 17:12:53Z INFO MessageListener] Loading Credentials
+[2025-04-02 17:12:53Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 17:12:53Z INFO ConfigurationStore] stored True
+[2025-04-02 17:12:53Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 17:12:53Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 17:12:53Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:12:53Z INFO HostContext] Well known directory 'Root': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 17:12:53Z INFO HostContext] Well known config file 'RSACredentials': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams'
+[2025-04-02 17:12:53Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:12:53Z INFO MessageListener] Attempt to create session.
+[2025-04-02 17:12:53Z INFO MessageListener] Connecting to the Runner Server...
+[2025-04-02 17:12:53Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 17:12:53Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 17:12:53Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 17:12:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 17:12:53Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 17:12:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 17:12:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 17:12:54Z INFO MessageListener] VssConnection created
+[2025-04-02 17:12:54Z INFO Terminal] WRITE LINE: 
+[2025-04-02 17:12:54Z INFO Terminal] WRITE LINE: 
+[2025-04-02 17:12:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:12:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:12:54Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 17:12:54Z INFO MessageListener] Session created.
+[2025-04-02 17:12:54Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-04-02 17:12:54Z INFO Terminal] WRITE LINE: 2025-04-02 17:12:54Z: Listening for Jobs
+[2025-04-02 17:12:54Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-04-02 17:12:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:12:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 17:13:12Z INFO MessageListener] Message '121323800270863574' received from session 'ff116f1f-a645-4376-83e7-8a93c8e8cbc7'.
+[2025-04-02 17:13:12Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 17:13:12Z INFO ConfigurationStore] stored True
+[2025-04-02 17:13:12Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 17:13:12Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 17:13:12Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 17:13:12Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:12Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:12Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:13Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 17:13:14Z INFO JobDispatcher] Job request 0 for plan 4e8dc360-144b-47ec-a725-98b3c2507275 job 5be39f14-bc26-5344-8148-b354b7bcedb0 received.
+[2025-04-02 17:13:14Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 17:13:14Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 17:13:14Z INFO Terminal] WRITE LINE: 2025-04-02 17:13:14Z: Running job: install-pip-deps
+[2025-04-02 17:13:14Z INFO JobDispatcher] Start renew job request 0 for job 5be39f14-bc26-5344-8148-b354b7bcedb0.
+[2025-04-02 17:13:14Z INFO JobDispatcher] Successfully renew job 5be39f14-bc26-5344-8148-b354b7bcedb0, job is valid till 02/04/2025 17:23:13
+[2025-04-02 17:13:14Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   File name: 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2224 2236'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Working directory: 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 17:13:14Z INFO ProcessInvokerWrapper] Process started with process id 17572, waiting for process exit.
+[2025-04-02 17:13:14Z INFO JobDispatcher] Send job request message to worker for job 5be39f14-bc26-5344-8148-b354b7bcedb0.
+[2025-04-02 17:13:15Z INFO ProcessChannel] Sending message of length 18882, with hash '6129c4494821a71d0d0b17784811cdaa6aa60b73881ee041ab1fa67950b4edb8'
+[2025-04-02 17:13:15Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 17:13:15Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 17:13:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 17:13:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 17:13:43Z INFO ProcessInvokerWrapper] Finished process 17572 with exit code 100, and elapsed time 00:00:28.5911429.
+[2025-04-02 17:13:43Z INFO JobDispatcher] Worker finished for job 5be39f14-bc26-5344-8148-b354b7bcedb0. Code: 100
+[2025-04-02 17:13:43Z INFO JobDispatcher] finish job request for job 5be39f14-bc26-5344-8148-b354b7bcedb0 with result: Succeeded
+[2025-04-02 17:13:43Z INFO Terminal] WRITE LINE: 2025-04-02 17:13:43Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 17:13:43Z INFO JobDispatcher] Stop renew job request for job 5be39f14-bc26-5344-8148-b354b7bcedb0.
+[2025-04-02 17:13:43Z INFO JobDispatcher] job renew has been cancelled, stop renew job 5be39f14-bc26-5344-8148-b354b7bcedb0.
+[2025-04-02 17:13:43Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 17:13:43Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 17:13:43Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 17:13:43Z INFO MessageListener] Message '6948870222806313393' received from session 'ff116f1f-a645-4376-83e7-8a93c8e8cbc7'.
+[2025-04-02 17:13:43Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 17:13:43Z INFO ConfigurationStore] stored True
+[2025-04-02 17:13:43Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 17:13:43Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 17:13:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 17:13:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file c:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 17:13:44Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 17:13:45Z INFO JobDispatcher] Job request 0 for plan 4e8dc360-144b-47ec-a725-98b3c2507275 job ca696dc2-8d59-5d02-a8c5-510c51444bac received.
+[2025-04-02 17:13:45Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 17:13:45Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 17:13:45Z INFO JobDispatcher] Job request 5be39f14-bc26-5344-8148-b354b7bcedb0 processed succeed.
+[2025-04-02 17:13:45Z INFO Terminal] WRITE LINE: 2025-04-02 17:13:45Z: Running job: deploy-to-dev
+[2025-04-02 17:13:45Z INFO JobDispatcher] Start renew job request 0 for job ca696dc2-8d59-5d02-a8c5-510c51444bac.
+[2025-04-02 17:13:46Z INFO JobDispatcher] Successfully renew job ca696dc2-8d59-5d02-a8c5-510c51444bac, job is valid till 02/04/2025 17:23:44
+[2025-04-02 17:13:46Z INFO HostContext] Well known directory 'Bin': 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   File name: 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2172 2240'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Working directory: 'c:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 17:13:46Z INFO ProcessInvokerWrapper] Process started with process id 10960, waiting for process exit.
+[2025-04-02 17:13:46Z INFO JobDispatcher] Send job request message to worker for job ca696dc2-8d59-5d02-a8c5-510c51444bac.
+[2025-04-02 17:13:46Z INFO ProcessChannel] Sending message of length 19597, with hash '837445f9e38b27dc2143f6d42d8e063f6201c84a8ff234160b12914d882a9241'
+[2025-04-02 17:13:46Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 17:13:46Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 17:14:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 17:14:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 17:14:09Z INFO ProcessInvokerWrapper] Finished process 10960 with exit code 102, and elapsed time 00:00:23.3747133.
+[2025-04-02 17:14:09Z INFO JobDispatcher] Worker finished for job ca696dc2-8d59-5d02-a8c5-510c51444bac. Code: 102
+[2025-04-02 17:14:09Z INFO JobDispatcher] finish job request for job ca696dc2-8d59-5d02-a8c5-510c51444bac with result: Failed
+[2025-04-02 17:14:09Z INFO Terminal] WRITE LINE: 2025-04-02 17:14:09Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 17:14:09Z INFO JobDispatcher] Stop renew job request for job ca696dc2-8d59-5d02-a8c5-510c51444bac.
+[2025-04-02 17:14:09Z INFO JobDispatcher] job renew has been cancelled, stop renew job ca696dc2-8d59-5d02-a8c5-510c51444bac.
+[2025-04-02 17:14:09Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 17:14:09Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 17:14:09Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 17:15:00Z INFO Terminal] WRITE LINE: Exiting...
+[2025-04-02 17:15:00Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-02 17:15:00Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-02 17:15:00Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-04-02 17:15:00Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=ff116f1f-a645-4376-83e7-8a93c8e8cbc7&status=Online&runnerVersion=2.323.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2025-04-02 17:15:00Z ERR  BrokerServer] Catch exception during request
+[2025-04-02 17:15:00Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2025-04-02 17:15:00Z ERR  BrokerServer] #####################################################
+[2025-04-02 17:15:00Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2025-04-02 17:15:00Z ERR  BrokerServer] #####################################################
+[2025-04-02 17:15:00Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2025-04-02 17:15:00Z ERR  BrokerServer] #####################################################
+[2025-04-02 17:15:00Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2025-04-02 17:15:00Z WARN BrokerServer] Back off 5.536 seconds before next retry. 4 attempt left.
+[2025-04-02 17:15:00Z INFO MessageListener] Get next message has been cancelled.
+[2025-04-02 17:15:00Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-04-02 17:15:00Z INFO JobDispatcher] Ensure WorkerDispatcher for job ca696dc2-8d59-5d02-a8c5-510c51444bac run to finish, cancel any running job.
+[2025-04-02 17:15:00Z INFO JobDispatcher] Job request ca696dc2-8d59-5d02-a8c5-510c51444bac processed succeed.
+[2025-04-02 17:15:00Z INFO Runner] Deleting Runner Session...
+[2025-04-02 17:15:01Z INFO Listener] Runner execution been cancelled.

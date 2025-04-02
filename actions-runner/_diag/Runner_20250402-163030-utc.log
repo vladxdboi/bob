@@ -1,0 +1,1184 @@
+[2025-04-02 16:30:30Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 16:30:30Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-04-02 16:30:30Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2025-04-02 16:30:30Z INFO Listener] Version: 2.323.0
+[2025-04-02 16:30:30Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-02 16:30:30Z INFO Listener] Culture: en-GB
+[2025-04-02 16:30:30Z INFO Listener] UI Culture: en-GB
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO Listener] Validating directory permissions for: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO CommandLineParser] Parse
+[2025-04-02 16:30:30Z INFO CommandLineParser] Parsing 1 args
+[2025-04-02 16:30:30Z INFO CommandLineParser] parsing argument
+[2025-04-02 16:30:30Z INFO CommandLineParser] HasArgs: False
+[2025-04-02 16:30:30Z INFO CommandLineParser] Adding Command: run
+[2025-04-02 16:30:30Z INFO Listener] Arguments parsed
+[2025-04-02 16:30:30Z INFO Runner] ExecuteCommand
+[2025-04-02 16:30:30Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Listener.dll
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] binPath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] RootFolder: C:\Users\vladi\Documents\GitHub\bob\actions-runner
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] ConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.runner_migrated
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] CredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_migrated
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'Service': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\vladi\Documents\GitHub\bob\actions-runner\.service
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'help': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'version': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'check': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Command 'configure': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Command 'remove': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-04-02 16:30:30Z INFO ConfigurationManager] LoadSettings
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 16:30:30Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 16:30:30Z INFO ConfigurationStore] Read setting file: 293 chars
+[2025-04-02 16:30:30Z INFO ConfigurationManager] Settings Loaded
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-02 16:30:30Z INFO CommandSettings] Command 'run': 'True'
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 16:30:30Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 16:30:30Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-04-02 16:30:30Z INFO Runner] Set runner startup type - Manual
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-02 16:30:30Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-02 16:30:30Z INFO Runner] RunAsync
+[2025-04-02 16:30:30Z INFO ConfigurationManager] LoadSettings
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured()
+[2025-04-02 16:30:30Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-02 16:30:30Z INFO ConfigurationManager] Is configured: True
+[2025-04-02 16:30:30Z INFO ConfigurationManager] Settings Loaded
+[2025-04-02 16:30:30Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "bobs",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/h5c7vwOkcZCfReMtYahw11SJdlk2lSAMfnNmAt52iITzib6AAT/",
+  "GitHubUrl": "https://github.com/vladxdboi/bob",
+  "WorkFolder": "_work"
+}
+[2025-04-02 16:30:30Z INFO MessageListener] Loading Credentials
+[2025-04-02 16:30:30Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:30:30Z INFO ConfigurationStore] stored True
+[2025-04-02 16:30:30Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:30:30Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:30:30Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner'
+[2025-04-02 16:30:30Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams'
+[2025-04-02 16:30:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:30Z INFO MessageListener] Attempt to create session.
+[2025-04-02 16:30:30Z INFO MessageListener] Connecting to the Runner Server...
+[2025-04-02 16:30:30Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 16:30:30Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-04-02 16:30:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 16:30:30Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 16:30:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-02 16:30:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 16:30:30Z INFO RunnerServer] EstablishVssConnection
+[2025-04-02 16:30:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-02 16:30:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-02 16:30:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 16:30:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 16:30:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-02 16:30:31Z INFO MessageListener] VssConnection created
+[2025-04-02 16:30:31Z INFO Terminal] WRITE LINE: 
+[2025-04-02 16:30:31Z INFO Terminal] WRITE LINE: 
+[2025-04-02 16:30:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:30:32Z INFO MessageListener] Session created.
+[2025-04-02 16:30:32Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-04-02 16:30:32Z INFO Terminal] WRITE LINE: 2025-04-02 16:30:32Z: Listening for Jobs
+[2025-04-02 16:30:32Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-04-02 16:30:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:33Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:30:50Z INFO MessageListener] Message '740500845434199033' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:30:50Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:30:50Z INFO ConfigurationStore] stored True
+[2025-04-02 16:30:50Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:30:50Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:30:50Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:30:50Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:50Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:50Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:30:51Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:30:52Z INFO JobDispatcher] Job request 0 for plan a803c170-790a-4aa7-82e0-756bc64d2fd0 job 76df904f-b497-5ed9-8e00-8a849c8982e9 received.
+[2025-04-02 16:30:52Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:30:52Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:30:52Z INFO Terminal] WRITE LINE: 2025-04-02 16:30:52Z: Running job: install-pip-deps
+[2025-04-02 16:30:52Z INFO JobDispatcher] Start renew job request 0 for job 76df904f-b497-5ed9-8e00-8a849c8982e9.
+[2025-04-02 16:30:52Z INFO JobDispatcher] Successfully renew job 76df904f-b497-5ed9-8e00-8a849c8982e9, job is valid till 02/04/2025 16:40:51
+[2025-04-02 16:30:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2184 2192'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:30:52Z INFO ProcessInvokerWrapper] Process started with process id 14124, waiting for process exit.
+[2025-04-02 16:30:52Z INFO JobDispatcher] Send job request message to worker for job 76df904f-b497-5ed9-8e00-8a849c8982e9.
+[2025-04-02 16:30:52Z INFO ProcessChannel] Sending message of length 18881, with hash '9349b4ba44218b5197474843fea1652a3a8634b99462fe6df84e54993aeb1f83'
+[2025-04-02 16:30:53Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:30:53Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:31:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:31:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:31:22Z INFO ProcessInvokerWrapper] Finished process 14124 with exit code 100, and elapsed time 00:00:29.2677675.
+[2025-04-02 16:31:22Z INFO JobDispatcher] Worker finished for job 76df904f-b497-5ed9-8e00-8a849c8982e9. Code: 100
+[2025-04-02 16:31:22Z INFO JobDispatcher] finish job request for job 76df904f-b497-5ed9-8e00-8a849c8982e9 with result: Succeeded
+[2025-04-02 16:31:22Z INFO Terminal] WRITE LINE: 2025-04-02 16:31:22Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:31:22Z INFO JobDispatcher] Stop renew job request for job 76df904f-b497-5ed9-8e00-8a849c8982e9.
+[2025-04-02 16:31:22Z INFO JobDispatcher] job renew has been cancelled, stop renew job 76df904f-b497-5ed9-8e00-8a849c8982e9.
+[2025-04-02 16:31:22Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:31:22Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:31:22Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:31:22Z INFO MessageListener] Message '2577470997995852974' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:31:22Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:31:22Z INFO ConfigurationStore] stored True
+[2025-04-02 16:31:22Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:31:22Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:31:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:31:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:31:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:31:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:31:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:31:24Z INFO JobDispatcher] Job request 0 for plan a803c170-790a-4aa7-82e0-756bc64d2fd0 job 5419bc0c-6247-54f5-931b-6d8113e8a945 received.
+[2025-04-02 16:31:24Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:31:24Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:31:24Z INFO JobDispatcher] Job request 76df904f-b497-5ed9-8e00-8a849c8982e9 processed succeed.
+[2025-04-02 16:31:24Z INFO Terminal] WRITE LINE: 2025-04-02 16:31:24Z: Running job: deploy-to-dev
+[2025-04-02 16:31:24Z INFO JobDispatcher] Start renew job request 0 for job 5419bc0c-6247-54f5-931b-6d8113e8a945.
+[2025-04-02 16:31:24Z INFO JobDispatcher] Successfully renew job 5419bc0c-6247-54f5-931b-6d8113e8a945, job is valid till 02/04/2025 16:41:23
+[2025-04-02 16:31:24Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2284 2304'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:31:24Z INFO ProcessInvokerWrapper] Process started with process id 10960, waiting for process exit.
+[2025-04-02 16:31:24Z INFO JobDispatcher] Send job request message to worker for job 5419bc0c-6247-54f5-931b-6d8113e8a945.
+[2025-04-02 16:31:24Z INFO ProcessChannel] Sending message of length 19340, with hash '8a144260c552a22f84e9390831a6dca405626fab9b044a74008b18df0a9a32a8'
+[2025-04-02 16:31:25Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:31:25Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:31:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:31:51Z INFO ProcessInvokerWrapper] Finished process 10960 with exit code 102, and elapsed time 00:00:26.8969494.
+[2025-04-02 16:31:51Z INFO JobDispatcher] Worker finished for job 5419bc0c-6247-54f5-931b-6d8113e8a945. Code: 102
+[2025-04-02 16:31:51Z INFO JobDispatcher] finish job request for job 5419bc0c-6247-54f5-931b-6d8113e8a945 with result: Failed
+[2025-04-02 16:31:51Z INFO Terminal] WRITE LINE: 2025-04-02 16:31:51Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:31:51Z INFO JobDispatcher] Stop renew job request for job 5419bc0c-6247-54f5-931b-6d8113e8a945.
+[2025-04-02 16:31:51Z INFO JobDispatcher] job renew has been cancelled, stop renew job 5419bc0c-6247-54f5-931b-6d8113e8a945.
+[2025-04-02 16:31:51Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:31:51Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:31:51Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:33:23Z INFO MessageListener] Message '5697051185790597698' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:33:23Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:33:23Z INFO ConfigurationStore] stored True
+[2025-04-02 16:33:23Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:33:23Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:33:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:33:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:33:25Z INFO JobDispatcher] Job request 0 for plan 249cbd43-6b17-4403-9649-b55619545e85 job 8847c61f-91c2-5edb-9e25-1bdf2b63022e received.
+[2025-04-02 16:33:25Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:33:25Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:33:25Z INFO JobDispatcher] Job request 5419bc0c-6247-54f5-931b-6d8113e8a945 processed succeed.
+[2025-04-02 16:33:25Z INFO Terminal] WRITE LINE: 2025-04-02 16:33:25Z: Running job: install-pip-deps
+[2025-04-02 16:33:25Z INFO JobDispatcher] Start renew job request 0 for job 8847c61f-91c2-5edb-9e25-1bdf2b63022e.
+[2025-04-02 16:33:25Z INFO JobDispatcher] Successfully renew job 8847c61f-91c2-5edb-9e25-1bdf2b63022e, job is valid till 02/04/2025 16:43:24
+[2025-04-02 16:33:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1684 1584'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:33:25Z INFO ProcessInvokerWrapper] Process started with process id 21048, waiting for process exit.
+[2025-04-02 16:33:25Z INFO JobDispatcher] Send job request message to worker for job 8847c61f-91c2-5edb-9e25-1bdf2b63022e.
+[2025-04-02 16:33:25Z INFO ProcessChannel] Sending message of length 18882, with hash '0540e2d77925afac3c00df7220bb8a74cca0a14b513cbd57dddb823507e254c8'
+[2025-04-02 16:33:26Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:33:26Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:33:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:33:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:33:54Z INFO ProcessInvokerWrapper] Finished process 21048 with exit code 100, and elapsed time 00:00:28.8628648.
+[2025-04-02 16:33:54Z INFO JobDispatcher] Worker finished for job 8847c61f-91c2-5edb-9e25-1bdf2b63022e. Code: 100
+[2025-04-02 16:33:54Z INFO JobDispatcher] finish job request for job 8847c61f-91c2-5edb-9e25-1bdf2b63022e with result: Succeeded
+[2025-04-02 16:33:54Z INFO Terminal] WRITE LINE: 2025-04-02 16:33:54Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:33:54Z INFO JobDispatcher] Stop renew job request for job 8847c61f-91c2-5edb-9e25-1bdf2b63022e.
+[2025-04-02 16:33:54Z INFO JobDispatcher] job renew has been cancelled, stop renew job 8847c61f-91c2-5edb-9e25-1bdf2b63022e.
+[2025-04-02 16:33:54Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:33:54Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:33:54Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:33:55Z INFO MessageListener] Message '1838417588108457352' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:33:55Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:33:55Z INFO ConfigurationStore] stored True
+[2025-04-02 16:33:55Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:33:55Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:33:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:33:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:33:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:33:56Z INFO JobDispatcher] Job request 0 for plan 249cbd43-6b17-4403-9649-b55619545e85 job abb73cf3-2763-5084-934c-1c13f952cbb7 received.
+[2025-04-02 16:33:56Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:33:56Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:33:56Z INFO JobDispatcher] Job request 8847c61f-91c2-5edb-9e25-1bdf2b63022e processed succeed.
+[2025-04-02 16:33:56Z INFO Terminal] WRITE LINE: 2025-04-02 16:33:56Z: Running job: deploy-to-dev
+[2025-04-02 16:33:56Z INFO JobDispatcher] Start renew job request 0 for job abb73cf3-2763-5084-934c-1c13f952cbb7.
+[2025-04-02 16:33:57Z INFO JobDispatcher] Successfully renew job abb73cf3-2763-5084-934c-1c13f952cbb7, job is valid till 02/04/2025 16:43:55
+[2025-04-02 16:33:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2408 2424'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:33:57Z INFO ProcessInvokerWrapper] Process started with process id 18848, waiting for process exit.
+[2025-04-02 16:33:57Z INFO JobDispatcher] Send job request message to worker for job abb73cf3-2763-5084-934c-1c13f952cbb7.
+[2025-04-02 16:33:57Z INFO ProcessChannel] Sending message of length 19352, with hash '04eced278a4f70fd3b9cdce0ecbe614eb9d075e162db856cd41d2e4ca76e292b'
+[2025-04-02 16:33:57Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:33:57Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:34:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:34:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:34:21Z INFO ProcessInvokerWrapper] Finished process 18848 with exit code 102, and elapsed time 00:00:24.4347421.
+[2025-04-02 16:34:21Z INFO JobDispatcher] Worker finished for job abb73cf3-2763-5084-934c-1c13f952cbb7. Code: 102
+[2025-04-02 16:34:21Z INFO JobDispatcher] finish job request for job abb73cf3-2763-5084-934c-1c13f952cbb7 with result: Failed
+[2025-04-02 16:34:21Z INFO Terminal] WRITE LINE: 2025-04-02 16:34:21Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:34:21Z INFO JobDispatcher] Stop renew job request for job abb73cf3-2763-5084-934c-1c13f952cbb7.
+[2025-04-02 16:34:21Z INFO JobDispatcher] job renew has been cancelled, stop renew job abb73cf3-2763-5084-934c-1c13f952cbb7.
+[2025-04-02 16:34:21Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:34:21Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:34:21Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:38:22Z INFO MessageListener] Message '6309917540172559357' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:38:22Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:38:22Z INFO ConfigurationStore] stored True
+[2025-04-02 16:38:22Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:38:22Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:38:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:38:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:38:24Z INFO JobDispatcher] Job request 0 for plan addc4b7a-960c-485a-b1df-1e197909c13f job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c received.
+[2025-04-02 16:38:24Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:38:24Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:38:24Z INFO JobDispatcher] Job request abb73cf3-2763-5084-934c-1c13f952cbb7 processed succeed.
+[2025-04-02 16:38:24Z INFO Terminal] WRITE LINE: 2025-04-02 16:38:24Z: Running job: install-pip-deps
+[2025-04-02 16:38:24Z INFO JobDispatcher] Start renew job request 0 for job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c.
+[2025-04-02 16:38:24Z INFO JobDispatcher] Successfully renew job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c, job is valid till 02/04/2025 16:48:23
+[2025-04-02 16:38:24Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2160 2388'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:38:24Z INFO ProcessInvokerWrapper] Process started with process id 11032, waiting for process exit.
+[2025-04-02 16:38:24Z INFO JobDispatcher] Send job request message to worker for job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c.
+[2025-04-02 16:38:24Z INFO ProcessChannel] Sending message of length 18882, with hash '73e2f19e453e3f5f8cb729e95acfe6b484f0a8fe360ef16612f70ce7d0417310'
+[2025-04-02 16:38:25Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:38:25Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:38:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:38:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:38:48Z INFO ProcessInvokerWrapper] Finished process 11032 with exit code 100, and elapsed time 00:00:24.0333522.
+[2025-04-02 16:38:48Z INFO JobDispatcher] Worker finished for job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c. Code: 100
+[2025-04-02 16:38:48Z INFO JobDispatcher] finish job request for job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c with result: Succeeded
+[2025-04-02 16:38:48Z INFO Terminal] WRITE LINE: 2025-04-02 16:38:48Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:38:48Z INFO JobDispatcher] Stop renew job request for job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c.
+[2025-04-02 16:38:48Z INFO JobDispatcher] job renew has been cancelled, stop renew job 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c.
+[2025-04-02 16:38:48Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:38:48Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:38:48Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:38:49Z INFO MessageListener] Message '8451972626856740839' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:38:49Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:38:49Z INFO ConfigurationStore] stored True
+[2025-04-02 16:38:49Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:38:49Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:38:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:38:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:38:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:38:50Z INFO JobDispatcher] Job request 0 for plan addc4b7a-960c-485a-b1df-1e197909c13f job d3e0af90-8461-54c0-87c3-3a827878621c received.
+[2025-04-02 16:38:50Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:38:50Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:38:50Z INFO JobDispatcher] Job request 6f9b2d5d-89fb-5e72-8dd7-19a33691a07c processed succeed.
+[2025-04-02 16:38:50Z INFO Terminal] WRITE LINE: 2025-04-02 16:38:50Z: Running job: deploy-to-dev
+[2025-04-02 16:38:50Z INFO JobDispatcher] Start renew job request 0 for job d3e0af90-8461-54c0-87c3-3a827878621c.
+[2025-04-02 16:38:51Z INFO JobDispatcher] Successfully renew job d3e0af90-8461-54c0-87c3-3a827878621c, job is valid till 02/04/2025 16:48:49
+[2025-04-02 16:38:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2468 2100'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:38:51Z INFO ProcessInvokerWrapper] Process started with process id 19848, waiting for process exit.
+[2025-04-02 16:38:51Z INFO JobDispatcher] Send job request message to worker for job d3e0af90-8461-54c0-87c3-3a827878621c.
+[2025-04-02 16:38:51Z INFO ProcessChannel] Sending message of length 19323, with hash '3f8dfab88ede44be2b6c502be673c41772edce8ae0a1ced02a76a87337276006'
+[2025-04-02 16:38:51Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:38:51Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:39:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:39:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:39:18Z INFO ProcessInvokerWrapper] Finished process 19848 with exit code 102, and elapsed time 00:00:26.9268641.
+[2025-04-02 16:39:18Z INFO JobDispatcher] Worker finished for job d3e0af90-8461-54c0-87c3-3a827878621c. Code: 102
+[2025-04-02 16:39:18Z INFO JobDispatcher] finish job request for job d3e0af90-8461-54c0-87c3-3a827878621c with result: Failed
+[2025-04-02 16:39:18Z INFO Terminal] WRITE LINE: 2025-04-02 16:39:18Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:39:18Z INFO JobDispatcher] Stop renew job request for job d3e0af90-8461-54c0-87c3-3a827878621c.
+[2025-04-02 16:39:18Z INFO JobDispatcher] job renew has been cancelled, stop renew job d3e0af90-8461-54c0-87c3-3a827878621c.
+[2025-04-02 16:39:18Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:39:18Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:39:18Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:40:38Z INFO MessageListener] Message '7895523458698425492' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:40:38Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:40:38Z INFO ConfigurationStore] stored True
+[2025-04-02 16:40:38Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:40:38Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:40:38Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:40:38Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:40:38Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:40:38Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:40:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:40:39Z INFO JobDispatcher] Job request 0 for plan 13711d9a-24c7-4cb9-9a1e-e23bfd405487 job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b received.
+[2025-04-02 16:40:39Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:40:39Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:40:39Z INFO JobDispatcher] Job request d3e0af90-8461-54c0-87c3-3a827878621c processed succeed.
+[2025-04-02 16:40:39Z INFO Terminal] WRITE LINE: 2025-04-02 16:40:39Z: Running job: install-pip-deps
+[2025-04-02 16:40:39Z INFO JobDispatcher] Start renew job request 0 for job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b.
+[2025-04-02 16:40:40Z INFO JobDispatcher] Successfully renew job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b, job is valid till 02/04/2025 16:50:38
+[2025-04-02 16:40:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2404 1964'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:40:40Z INFO ProcessInvokerWrapper] Process started with process id 17744, waiting for process exit.
+[2025-04-02 16:40:40Z INFO JobDispatcher] Send job request message to worker for job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b.
+[2025-04-02 16:40:40Z INFO ProcessChannel] Sending message of length 18882, with hash '1f23da1e6eb6c0412ef1e3590a0abcbb012256eec424d5505130ee84b4aa2b63'
+[2025-04-02 16:40:40Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:40:40Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:41:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:41:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:41:06Z INFO ProcessInvokerWrapper] Finished process 17744 with exit code 100, and elapsed time 00:00:25.9105624.
+[2025-04-02 16:41:06Z INFO JobDispatcher] Worker finished for job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b. Code: 100
+[2025-04-02 16:41:06Z INFO JobDispatcher] finish job request for job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b with result: Succeeded
+[2025-04-02 16:41:06Z INFO Terminal] WRITE LINE: 2025-04-02 16:41:06Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:41:06Z INFO JobDispatcher] Stop renew job request for job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b.
+[2025-04-02 16:41:06Z INFO JobDispatcher] job renew has been cancelled, stop renew job 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b.
+[2025-04-02 16:41:06Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:41:06Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:41:06Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:41:07Z INFO MessageListener] Message '4207512136402648898' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:41:07Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:41:07Z INFO ConfigurationStore] stored True
+[2025-04-02 16:41:07Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:41:07Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:41:07Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:41:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:41:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:41:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:41:07Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:41:08Z INFO JobDispatcher] Job request 0 for plan 13711d9a-24c7-4cb9-9a1e-e23bfd405487 job 46460f03-5bde-5945-866d-e2a3a37bb3c8 received.
+[2025-04-02 16:41:08Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:41:08Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:41:08Z INFO JobDispatcher] Job request 1e6b1cf9-4c38-5971-8eb2-73e1cff7b65b processed succeed.
+[2025-04-02 16:41:08Z INFO Terminal] WRITE LINE: 2025-04-02 16:41:08Z: Running job: deploy-to-dev
+[2025-04-02 16:41:08Z INFO JobDispatcher] Start renew job request 0 for job 46460f03-5bde-5945-866d-e2a3a37bb3c8.
+[2025-04-02 16:41:09Z INFO JobDispatcher] Successfully renew job 46460f03-5bde-5945-866d-e2a3a37bb3c8, job is valid till 02/04/2025 16:51:07
+[2025-04-02 16:41:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1948 1604'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:41:09Z INFO ProcessInvokerWrapper] Process started with process id 20484, waiting for process exit.
+[2025-04-02 16:41:09Z INFO JobDispatcher] Send job request message to worker for job 46460f03-5bde-5945-866d-e2a3a37bb3c8.
+[2025-04-02 16:41:09Z INFO ProcessChannel] Sending message of length 19316, with hash '5f0c85f9bbe3552f6337d685904d866ee6d48391c12623e6cde464bfbfd95f60'
+[2025-04-02 16:41:09Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:41:09Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:41:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:41:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:41:34Z INFO ProcessInvokerWrapper] Finished process 20484 with exit code 102, and elapsed time 00:00:25.4184482.
+[2025-04-02 16:41:34Z INFO JobDispatcher] Worker finished for job 46460f03-5bde-5945-866d-e2a3a37bb3c8. Code: 102
+[2025-04-02 16:41:34Z INFO JobDispatcher] finish job request for job 46460f03-5bde-5945-866d-e2a3a37bb3c8 with result: Failed
+[2025-04-02 16:41:34Z INFO Terminal] WRITE LINE: 2025-04-02 16:41:34Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:41:34Z INFO JobDispatcher] Stop renew job request for job 46460f03-5bde-5945-866d-e2a3a37bb3c8.
+[2025-04-02 16:41:34Z INFO JobDispatcher] job renew has been cancelled, stop renew job 46460f03-5bde-5945-866d-e2a3a37bb3c8.
+[2025-04-02 16:41:34Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:41:34Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:41:34Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:42:16Z INFO MessageListener] Message '7219011012324124124' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:42:16Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:42:16Z INFO ConfigurationStore] stored True
+[2025-04-02 16:42:16Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:42:16Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:42:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:42:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:42:18Z INFO JobDispatcher] Job request 0 for plan 811a9525-d5b5-40cc-a632-1a2cf34a3e7c job 80a81a0d-3589-55d3-b158-33f52ea070ed received.
+[2025-04-02 16:42:18Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:42:18Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:42:18Z INFO JobDispatcher] Job request 46460f03-5bde-5945-866d-e2a3a37bb3c8 processed succeed.
+[2025-04-02 16:42:18Z INFO Terminal] WRITE LINE: 2025-04-02 16:42:18Z: Running job: install-pip-deps
+[2025-04-02 16:42:18Z INFO JobDispatcher] Start renew job request 0 for job 80a81a0d-3589-55d3-b158-33f52ea070ed.
+[2025-04-02 16:42:18Z INFO JobDispatcher] Successfully renew job 80a81a0d-3589-55d3-b158-33f52ea070ed, job is valid till 02/04/2025 16:52:17
+[2025-04-02 16:42:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2596 2608'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:42:18Z INFO ProcessInvokerWrapper] Process started with process id 9008, waiting for process exit.
+[2025-04-02 16:42:18Z INFO JobDispatcher] Send job request message to worker for job 80a81a0d-3589-55d3-b158-33f52ea070ed.
+[2025-04-02 16:42:18Z INFO ProcessChannel] Sending message of length 18882, with hash '0f101906cdc44004dd87d507257e757ffc6d1b40e918483b7781751e089bec79'
+[2025-04-02 16:42:19Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:42:19Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:42:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:42:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:42:45Z INFO ProcessInvokerWrapper] Finished process 9008 with exit code 100, and elapsed time 00:00:26.3072960.
+[2025-04-02 16:42:45Z INFO JobDispatcher] Worker finished for job 80a81a0d-3589-55d3-b158-33f52ea070ed. Code: 100
+[2025-04-02 16:42:45Z INFO JobDispatcher] finish job request for job 80a81a0d-3589-55d3-b158-33f52ea070ed with result: Succeeded
+[2025-04-02 16:42:45Z INFO Terminal] WRITE LINE: 2025-04-02 16:42:45Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:42:45Z INFO JobDispatcher] Stop renew job request for job 80a81a0d-3589-55d3-b158-33f52ea070ed.
+[2025-04-02 16:42:45Z INFO JobDispatcher] job renew has been cancelled, stop renew job 80a81a0d-3589-55d3-b158-33f52ea070ed.
+[2025-04-02 16:42:45Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:42:45Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:42:45Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:42:45Z INFO MessageListener] Message '3986347913405282285' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:42:45Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:42:45Z INFO ConfigurationStore] stored True
+[2025-04-02 16:42:45Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:42:45Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:42:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:42:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:42:46Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:42:47Z INFO JobDispatcher] Job request 0 for plan 811a9525-d5b5-40cc-a632-1a2cf34a3e7c job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc received.
+[2025-04-02 16:42:47Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:42:47Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:42:47Z INFO JobDispatcher] Job request 80a81a0d-3589-55d3-b158-33f52ea070ed processed succeed.
+[2025-04-02 16:42:47Z INFO Terminal] WRITE LINE: 2025-04-02 16:42:47Z: Running job: deploy-to-dev
+[2025-04-02 16:42:47Z INFO JobDispatcher] Start renew job request 0 for job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc.
+[2025-04-02 16:42:47Z INFO JobDispatcher] Successfully renew job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc, job is valid till 02/04/2025 16:52:45
+[2025-04-02 16:42:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1612 1608'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:42:47Z INFO ProcessInvokerWrapper] Process started with process id 19308, waiting for process exit.
+[2025-04-02 16:42:47Z INFO JobDispatcher] Send job request message to worker for job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc.
+[2025-04-02 16:42:47Z INFO ProcessChannel] Sending message of length 19333, with hash 'd21583267d6bd331b6b9e228798e930a6435b36233259a00638fd8f1b1034541'
+[2025-04-02 16:42:47Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:42:47Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:43:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:43:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:43:13Z INFO ProcessInvokerWrapper] Finished process 19308 with exit code 102, and elapsed time 00:00:25.7878483.
+[2025-04-02 16:43:13Z INFO JobDispatcher] Worker finished for job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc. Code: 102
+[2025-04-02 16:43:13Z INFO JobDispatcher] finish job request for job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc with result: Failed
+[2025-04-02 16:43:13Z INFO Terminal] WRITE LINE: 2025-04-02 16:43:13Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:43:13Z INFO JobDispatcher] Stop renew job request for job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc.
+[2025-04-02 16:43:13Z INFO JobDispatcher] job renew has been cancelled, stop renew job 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc.
+[2025-04-02 16:43:13Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:43:13Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:43:13Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:44:00Z INFO MessageListener] Message '1474313254670975640' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:44:00Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:44:00Z INFO ConfigurationStore] stored True
+[2025-04-02 16:44:00Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:44:00Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:44:00Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:44:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:00Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:44:01Z INFO JobDispatcher] Job request 0 for plan 0f5183b2-11dd-4175-acab-0fde7551a629 job 071f9320-e92c-5e16-8ef5-5f9792741c8a received.
+[2025-04-02 16:44:01Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:44:01Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:44:01Z INFO JobDispatcher] Job request 80a6b05b-1ec5-55fb-823f-f4b89b8b72cc processed succeed.
+[2025-04-02 16:44:01Z INFO Terminal] WRITE LINE: 2025-04-02 16:44:01Z: Running job: install-pip-deps
+[2025-04-02 16:44:01Z INFO JobDispatcher] Start renew job request 0 for job 071f9320-e92c-5e16-8ef5-5f9792741c8a.
+[2025-04-02 16:44:02Z INFO JobDispatcher] Successfully renew job 071f9320-e92c-5e16-8ef5-5f9792741c8a, job is valid till 02/04/2025 16:54:00
+[2025-04-02 16:44:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2624 2600'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:44:02Z INFO ProcessInvokerWrapper] Process started with process id 19348, waiting for process exit.
+[2025-04-02 16:44:02Z INFO JobDispatcher] Send job request message to worker for job 071f9320-e92c-5e16-8ef5-5f9792741c8a.
+[2025-04-02 16:44:02Z INFO ProcessChannel] Sending message of length 18882, with hash '8ad68a5e7454a3c002e9725c7e643650963d6e0d5de589af2e474a1c2196bae7'
+[2025-04-02 16:44:02Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:44:02Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:44:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:44:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:44:28Z INFO ProcessInvokerWrapper] Finished process 19348 with exit code 100, and elapsed time 00:00:26.0959918.
+[2025-04-02 16:44:28Z INFO JobDispatcher] Worker finished for job 071f9320-e92c-5e16-8ef5-5f9792741c8a. Code: 100
+[2025-04-02 16:44:28Z INFO JobDispatcher] finish job request for job 071f9320-e92c-5e16-8ef5-5f9792741c8a with result: Succeeded
+[2025-04-02 16:44:28Z INFO Terminal] WRITE LINE: 2025-04-02 16:44:28Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:44:28Z INFO JobDispatcher] Stop renew job request for job 071f9320-e92c-5e16-8ef5-5f9792741c8a.
+[2025-04-02 16:44:28Z INFO JobDispatcher] job renew has been cancelled, stop renew job 071f9320-e92c-5e16-8ef5-5f9792741c8a.
+[2025-04-02 16:44:28Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:44:28Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:44:28Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:44:28Z INFO MessageListener] Message '3833997106186040561' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:44:28Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:44:28Z INFO ConfigurationStore] stored True
+[2025-04-02 16:44:28Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:44:28Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:44:28Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:44:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:44:29Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:44:30Z INFO JobDispatcher] Job request 0 for plan 0f5183b2-11dd-4175-acab-0fde7551a629 job 6c2d2ef7-e840-531a-bf4b-51b278081bc1 received.
+[2025-04-02 16:44:30Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:44:30Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:44:30Z INFO JobDispatcher] Job request 071f9320-e92c-5e16-8ef5-5f9792741c8a processed succeed.
+[2025-04-02 16:44:30Z INFO Terminal] WRITE LINE: 2025-04-02 16:44:30Z: Running job: deploy-to-dev
+[2025-04-02 16:44:30Z INFO JobDispatcher] Start renew job request 0 for job 6c2d2ef7-e840-531a-bf4b-51b278081bc1.
+[2025-04-02 16:44:30Z INFO JobDispatcher] Successfully renew job 6c2d2ef7-e840-531a-bf4b-51b278081bc1, job is valid till 02/04/2025 16:54:29
+[2025-04-02 16:44:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2228 2524'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:44:30Z INFO ProcessInvokerWrapper] Process started with process id 2520, waiting for process exit.
+[2025-04-02 16:44:30Z INFO JobDispatcher] Send job request message to worker for job 6c2d2ef7-e840-531a-bf4b-51b278081bc1.
+[2025-04-02 16:44:30Z INFO ProcessChannel] Sending message of length 19415, with hash '2f7188f9488699e8fafc1b7c34786b6d3ca49b18e82dc6f55c0c69307b01a2ca'
+[2025-04-02 16:44:31Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:44:31Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:44:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:44:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:44:56Z INFO ProcessInvokerWrapper] Finished process 2520 with exit code 102, and elapsed time 00:00:25.2767762.
+[2025-04-02 16:44:56Z INFO JobDispatcher] Worker finished for job 6c2d2ef7-e840-531a-bf4b-51b278081bc1. Code: 102
+[2025-04-02 16:44:56Z INFO JobDispatcher] finish job request for job 6c2d2ef7-e840-531a-bf4b-51b278081bc1 with result: Failed
+[2025-04-02 16:44:56Z INFO Terminal] WRITE LINE: 2025-04-02 16:44:56Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:44:56Z INFO JobDispatcher] Stop renew job request for job 6c2d2ef7-e840-531a-bf4b-51b278081bc1.
+[2025-04-02 16:44:56Z INFO JobDispatcher] job renew has been cancelled, stop renew job 6c2d2ef7-e840-531a-bf4b-51b278081bc1.
+[2025-04-02 16:44:56Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:44:56Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:44:56Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:46:08Z INFO MessageListener] Message '1943677635466737489' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:46:08Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:46:08Z INFO ConfigurationStore] stored True
+[2025-04-02 16:46:08Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:46:08Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:46:08Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:46:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:46:09Z INFO JobDispatcher] Job request 0 for plan 672a3c50-2079-4886-a452-619b314d1415 job 2b21998f-acc8-5e32-8e5d-86e2aee5f247 received.
+[2025-04-02 16:46:09Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:46:09Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:46:09Z INFO JobDispatcher] Job request 6c2d2ef7-e840-531a-bf4b-51b278081bc1 processed succeed.
+[2025-04-02 16:46:09Z INFO Terminal] WRITE LINE: 2025-04-02 16:46:09Z: Running job: install-pip-deps
+[2025-04-02 16:46:09Z INFO JobDispatcher] Start renew job request 0 for job 2b21998f-acc8-5e32-8e5d-86e2aee5f247.
+[2025-04-02 16:46:10Z INFO JobDispatcher] Successfully renew job 2b21998f-acc8-5e32-8e5d-86e2aee5f247, job is valid till 02/04/2025 16:56:08
+[2025-04-02 16:46:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2724 596'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:46:10Z INFO ProcessInvokerWrapper] Process started with process id 18964, waiting for process exit.
+[2025-04-02 16:46:10Z INFO JobDispatcher] Send job request message to worker for job 2b21998f-acc8-5e32-8e5d-86e2aee5f247.
+[2025-04-02 16:46:10Z INFO ProcessChannel] Sending message of length 18882, with hash 'e6143609cb41b819f8154c6376a20ff63873971012c73716fb74cef28273d080'
+[2025-04-02 16:46:10Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:46:10Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:46:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:46:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:46:39Z INFO ProcessInvokerWrapper] Finished process 18964 with exit code 100, and elapsed time 00:00:28.9860825.
+[2025-04-02 16:46:39Z INFO JobDispatcher] Worker finished for job 2b21998f-acc8-5e32-8e5d-86e2aee5f247. Code: 100
+[2025-04-02 16:46:39Z INFO JobDispatcher] finish job request for job 2b21998f-acc8-5e32-8e5d-86e2aee5f247 with result: Succeeded
+[2025-04-02 16:46:39Z INFO Terminal] WRITE LINE: 2025-04-02 16:46:39Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:46:39Z INFO JobDispatcher] Stop renew job request for job 2b21998f-acc8-5e32-8e5d-86e2aee5f247.
+[2025-04-02 16:46:39Z INFO JobDispatcher] job renew has been cancelled, stop renew job 2b21998f-acc8-5e32-8e5d-86e2aee5f247.
+[2025-04-02 16:46:39Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:46:39Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:46:39Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:46:39Z INFO MessageListener] Message '5030988466945581412' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:46:39Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:46:39Z INFO ConfigurationStore] stored True
+[2025-04-02 16:46:39Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:46:39Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:46:39Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:46:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:46:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:46:41Z INFO JobDispatcher] Job request 0 for plan 672a3c50-2079-4886-a452-619b314d1415 job 8da2f054-18da-5c0b-907b-a41d301642b0 received.
+[2025-04-02 16:46:41Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:46:41Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:46:41Z INFO JobDispatcher] Job request 2b21998f-acc8-5e32-8e5d-86e2aee5f247 processed succeed.
+[2025-04-02 16:46:41Z INFO Terminal] WRITE LINE: 2025-04-02 16:46:41Z: Running job: deploy-to-dev
+[2025-04-02 16:46:41Z INFO JobDispatcher] Start renew job request 0 for job 8da2f054-18da-5c0b-907b-a41d301642b0.
+[2025-04-02 16:46:41Z INFO JobDispatcher] Successfully renew job 8da2f054-18da-5c0b-907b-a41d301642b0, job is valid till 02/04/2025 16:56:40
+[2025-04-02 16:46:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2396 2732'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:46:41Z INFO ProcessInvokerWrapper] Process started with process id 14264, waiting for process exit.
+[2025-04-02 16:46:41Z INFO JobDispatcher] Send job request message to worker for job 8da2f054-18da-5c0b-907b-a41d301642b0.
+[2025-04-02 16:46:41Z INFO ProcessChannel] Sending message of length 19525, with hash 'b52ad9427fdb269f3fa73f701ca96b71023ab4920279097bba1ba54587785e2f'
+[2025-04-02 16:46:42Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:46:42Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:47:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:47:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:47:09Z INFO ProcessInvokerWrapper] Finished process 14264 with exit code 102, and elapsed time 00:00:27.3650458.
+[2025-04-02 16:47:09Z INFO JobDispatcher] Worker finished for job 8da2f054-18da-5c0b-907b-a41d301642b0. Code: 102
+[2025-04-02 16:47:09Z INFO JobDispatcher] finish job request for job 8da2f054-18da-5c0b-907b-a41d301642b0 with result: Failed
+[2025-04-02 16:47:09Z INFO Terminal] WRITE LINE: 2025-04-02 16:47:09Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:47:09Z INFO JobDispatcher] Stop renew job request for job 8da2f054-18da-5c0b-907b-a41d301642b0.
+[2025-04-02 16:47:09Z INFO JobDispatcher] job renew has been cancelled, stop renew job 8da2f054-18da-5c0b-907b-a41d301642b0.
+[2025-04-02 16:47:09Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:47:09Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:47:09Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:47:49Z INFO MessageListener] Message '1548949597317476666' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:47:49Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:47:49Z INFO ConfigurationStore] stored True
+[2025-04-02 16:47:49Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:47:49Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:47:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:47:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:47:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:47:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:47:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:47:51Z INFO JobDispatcher] Job request 0 for plan 68a4df11-0a19-4c16-a4e1-ac51ceca582a job d00a2f85-f577-5921-944b-41f1cbcbda5e received.
+[2025-04-02 16:47:51Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:47:51Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:47:51Z INFO JobDispatcher] Job request 8da2f054-18da-5c0b-907b-a41d301642b0 processed succeed.
+[2025-04-02 16:47:51Z INFO Terminal] WRITE LINE: 2025-04-02 16:47:51Z: Running job: install-pip-deps
+[2025-04-02 16:47:51Z INFO JobDispatcher] Start renew job request 0 for job d00a2f85-f577-5921-944b-41f1cbcbda5e.
+[2025-04-02 16:47:51Z INFO JobDispatcher] Successfully renew job d00a2f85-f577-5921-944b-41f1cbcbda5e, job is valid till 02/04/2025 16:57:50
+[2025-04-02 16:47:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1480 2316'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:47:51Z INFO ProcessInvokerWrapper] Process started with process id 21096, waiting for process exit.
+[2025-04-02 16:47:51Z INFO JobDispatcher] Send job request message to worker for job d00a2f85-f577-5921-944b-41f1cbcbda5e.
+[2025-04-02 16:47:51Z INFO ProcessChannel] Sending message of length 18882, with hash '7c73d590aa1b4e67104281d730d9cfb6ae2e0a1af0c5b7b31e6948ed8ea86fbf'
+[2025-04-02 16:47:52Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:47:52Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:48:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:48:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:48:17Z INFO ProcessInvokerWrapper] Finished process 21096 with exit code 100, and elapsed time 00:00:25.6829727.
+[2025-04-02 16:48:17Z INFO JobDispatcher] Worker finished for job d00a2f85-f577-5921-944b-41f1cbcbda5e. Code: 100
+[2025-04-02 16:48:17Z INFO JobDispatcher] finish job request for job d00a2f85-f577-5921-944b-41f1cbcbda5e with result: Succeeded
+[2025-04-02 16:48:17Z INFO Terminal] WRITE LINE: 2025-04-02 16:48:17Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:48:17Z INFO JobDispatcher] Stop renew job request for job d00a2f85-f577-5921-944b-41f1cbcbda5e.
+[2025-04-02 16:48:17Z INFO JobDispatcher] job renew has been cancelled, stop renew job d00a2f85-f577-5921-944b-41f1cbcbda5e.
+[2025-04-02 16:48:17Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:48:17Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:48:17Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:48:17Z INFO MessageListener] Message '6549399955428117671' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:48:17Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:48:17Z INFO ConfigurationStore] stored True
+[2025-04-02 16:48:17Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:48:17Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:48:17Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:48:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:48:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:48:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:48:18Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:48:19Z INFO JobDispatcher] Job request 0 for plan 68a4df11-0a19-4c16-a4e1-ac51ceca582a job 896b21d7-fff1-5874-bc03-840cdaeb4924 received.
+[2025-04-02 16:48:19Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:48:19Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:48:19Z INFO JobDispatcher] Job request d00a2f85-f577-5921-944b-41f1cbcbda5e processed succeed.
+[2025-04-02 16:48:19Z INFO Terminal] WRITE LINE: 2025-04-02 16:48:19Z: Running job: deploy-to-dev
+[2025-04-02 16:48:19Z INFO JobDispatcher] Start renew job request 0 for job 896b21d7-fff1-5874-bc03-840cdaeb4924.
+[2025-04-02 16:48:19Z INFO JobDispatcher] Successfully renew job 896b21d7-fff1-5874-bc03-840cdaeb4924, job is valid till 02/04/2025 16:58:18
+[2025-04-02 16:48:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2384 2796'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:48:19Z INFO ProcessInvokerWrapper] Process started with process id 4248, waiting for process exit.
+[2025-04-02 16:48:19Z INFO JobDispatcher] Send job request message to worker for job 896b21d7-fff1-5874-bc03-840cdaeb4924.
+[2025-04-02 16:48:19Z INFO ProcessChannel] Sending message of length 19547, with hash 'ad923a3cc0ca32d362150502a6e1c4ac6f68e2d82cde5699fe2d2d16336bebdc'
+[2025-04-02 16:48:20Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:48:20Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:48:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:48:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:48:44Z INFO ProcessInvokerWrapper] Finished process 4248 with exit code 102, and elapsed time 00:00:24.6693921.
+[2025-04-02 16:48:44Z INFO JobDispatcher] Worker finished for job 896b21d7-fff1-5874-bc03-840cdaeb4924. Code: 102
+[2025-04-02 16:48:44Z INFO JobDispatcher] finish job request for job 896b21d7-fff1-5874-bc03-840cdaeb4924 with result: Failed
+[2025-04-02 16:48:44Z INFO Terminal] WRITE LINE: 2025-04-02 16:48:44Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:48:44Z INFO JobDispatcher] Stop renew job request for job 896b21d7-fff1-5874-bc03-840cdaeb4924.
+[2025-04-02 16:48:44Z INFO JobDispatcher] job renew has been cancelled, stop renew job 896b21d7-fff1-5874-bc03-840cdaeb4924.
+[2025-04-02 16:48:44Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:48:44Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:48:44Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:52:06Z INFO MessageListener] Message '6865918063254109764' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:52:06Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:52:06Z INFO ConfigurationStore] stored True
+[2025-04-02 16:52:06Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:52:06Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:52:06Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:52:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:07Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:52:08Z INFO JobDispatcher] Job request 0 for plan 3fa22aa6-16f3-4241-bb3a-7ee48aeff92c job c3a3f168-58c4-59fc-a471-46469de951c9 received.
+[2025-04-02 16:52:08Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:52:08Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:52:08Z INFO JobDispatcher] Job request 896b21d7-fff1-5874-bc03-840cdaeb4924 processed succeed.
+[2025-04-02 16:52:08Z INFO Terminal] WRITE LINE: 2025-04-02 16:52:08Z: Running job: install-pip-deps
+[2025-04-02 16:52:08Z INFO JobDispatcher] Start renew job request 0 for job c3a3f168-58c4-59fc-a471-46469de951c9.
+[2025-04-02 16:52:08Z INFO JobDispatcher] Successfully renew job c3a3f168-58c4-59fc-a471-46469de951c9, job is valid till 02/04/2025 17:02:07
+[2025-04-02 16:52:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1164 2236'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:52:08Z INFO ProcessInvokerWrapper] Process started with process id 19380, waiting for process exit.
+[2025-04-02 16:52:08Z INFO JobDispatcher] Send job request message to worker for job c3a3f168-58c4-59fc-a471-46469de951c9.
+[2025-04-02 16:52:08Z INFO ProcessChannel] Sending message of length 18882, with hash 'a41862944d7d9aad6d7d60a87a5a2bc8e6f7bba219add054a70557ccfb9497c5'
+[2025-04-02 16:52:09Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:52:09Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:52:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:52:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:52:34Z INFO ProcessInvokerWrapper] Finished process 19380 with exit code 100, and elapsed time 00:00:25.6371569.
+[2025-04-02 16:52:34Z INFO JobDispatcher] Worker finished for job c3a3f168-58c4-59fc-a471-46469de951c9. Code: 100
+[2025-04-02 16:52:34Z INFO JobDispatcher] finish job request for job c3a3f168-58c4-59fc-a471-46469de951c9 with result: Succeeded
+[2025-04-02 16:52:34Z INFO Terminal] WRITE LINE: 2025-04-02 16:52:34Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:52:34Z INFO JobDispatcher] Stop renew job request for job c3a3f168-58c4-59fc-a471-46469de951c9.
+[2025-04-02 16:52:34Z INFO JobDispatcher] job renew has been cancelled, stop renew job c3a3f168-58c4-59fc-a471-46469de951c9.
+[2025-04-02 16:52:34Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:52:34Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:52:34Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:52:35Z INFO MessageListener] Message '885113947602475098' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:52:35Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:52:35Z INFO ConfigurationStore] stored True
+[2025-04-02 16:52:35Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:52:35Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:52:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:52:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:52:35Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:52:36Z INFO JobDispatcher] Job request 0 for plan 3fa22aa6-16f3-4241-bb3a-7ee48aeff92c job fca2b121-47b4-5d9d-99aa-2b45daacd348 received.
+[2025-04-02 16:52:36Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:52:36Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:52:36Z INFO JobDispatcher] Job request c3a3f168-58c4-59fc-a471-46469de951c9 processed succeed.
+[2025-04-02 16:52:36Z INFO Terminal] WRITE LINE: 2025-04-02 16:52:36Z: Running job: deploy-to-dev
+[2025-04-02 16:52:36Z INFO JobDispatcher] Start renew job request 0 for job fca2b121-47b4-5d9d-99aa-2b45daacd348.
+[2025-04-02 16:52:37Z INFO JobDispatcher] Successfully renew job fca2b121-47b4-5d9d-99aa-2b45daacd348, job is valid till 02/04/2025 17:02:35
+[2025-04-02 16:52:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2456 2964'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:52:37Z INFO ProcessInvokerWrapper] Process started with process id 19052, waiting for process exit.
+[2025-04-02 16:52:37Z INFO JobDispatcher] Send job request message to worker for job fca2b121-47b4-5d9d-99aa-2b45daacd348.
+[2025-04-02 16:52:37Z INFO ProcessChannel] Sending message of length 19547, with hash '51a957426185aad2e1b81bdbae01522c9903ec6170fa3b0af7954fdc682b2e81'
+[2025-04-02 16:52:37Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:52:37Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:53:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:53:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:53:01Z INFO ProcessInvokerWrapper] Finished process 19052 with exit code 102, and elapsed time 00:00:24.8767803.
+[2025-04-02 16:53:01Z INFO JobDispatcher] Worker finished for job fca2b121-47b4-5d9d-99aa-2b45daacd348. Code: 102
+[2025-04-02 16:53:01Z INFO JobDispatcher] finish job request for job fca2b121-47b4-5d9d-99aa-2b45daacd348 with result: Failed
+[2025-04-02 16:53:01Z INFO Terminal] WRITE LINE: 2025-04-02 16:53:01Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:53:01Z INFO JobDispatcher] Stop renew job request for job fca2b121-47b4-5d9d-99aa-2b45daacd348.
+[2025-04-02 16:53:01Z INFO JobDispatcher] job renew has been cancelled, stop renew job fca2b121-47b4-5d9d-99aa-2b45daacd348.
+[2025-04-02 16:53:01Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:53:01Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:53:01Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:53:24Z INFO MessageListener] Message '4976787051518323065' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:53:24Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:53:24Z INFO ConfigurationStore] stored True
+[2025-04-02 16:53:24Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:53:24Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:53:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:53:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:25Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:53:26Z INFO JobDispatcher] Job request 0 for plan 63e1ba35-7635-4e23-818a-d726342985c5 job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6 received.
+[2025-04-02 16:53:26Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:53:26Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:53:26Z INFO JobDispatcher] Job request fca2b121-47b4-5d9d-99aa-2b45daacd348 processed succeed.
+[2025-04-02 16:53:26Z INFO Terminal] WRITE LINE: 2025-04-02 16:53:26Z: Running job: install-pip-deps
+[2025-04-02 16:53:26Z INFO JobDispatcher] Start renew job request 0 for job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6.
+[2025-04-02 16:53:26Z INFO JobDispatcher] Successfully renew job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6, job is valid till 02/04/2025 17:03:25
+[2025-04-02 16:53:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2992 3032'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:53:26Z INFO ProcessInvokerWrapper] Process started with process id 20252, waiting for process exit.
+[2025-04-02 16:53:26Z INFO JobDispatcher] Send job request message to worker for job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6.
+[2025-04-02 16:53:26Z INFO ProcessChannel] Sending message of length 18881, with hash 'b18409a071189272f901c02398fd729a076ae49c859e3a54c7b7b14da4a2f273'
+[2025-04-02 16:53:27Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:53:27Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:53:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:53:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:53:52Z INFO ProcessInvokerWrapper] Finished process 20252 with exit code 100, and elapsed time 00:00:25.9847059.
+[2025-04-02 16:53:52Z INFO JobDispatcher] Worker finished for job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6. Code: 100
+[2025-04-02 16:53:52Z INFO JobDispatcher] finish job request for job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6 with result: Succeeded
+[2025-04-02 16:53:52Z INFO Terminal] WRITE LINE: 2025-04-02 16:53:52Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:53:52Z INFO JobDispatcher] Stop renew job request for job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6.
+[2025-04-02 16:53:52Z INFO JobDispatcher] job renew has been cancelled, stop renew job c05776d0-88c5-5cad-9a0f-ae1f2b46fae6.
+[2025-04-02 16:53:52Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:53:52Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:53:52Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:53:53Z INFO MessageListener] Message '8845207022768941898' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:53:53Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:53:53Z INFO ConfigurationStore] stored True
+[2025-04-02 16:53:53Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:53:53Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:53:53Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:53:53Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:53Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:53Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:53:53Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:53:54Z INFO JobDispatcher] Job request 0 for plan 63e1ba35-7635-4e23-818a-d726342985c5 job ff3280ea-d5cc-54ca-b024-698f724ad7c6 received.
+[2025-04-02 16:53:54Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:53:54Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:53:54Z INFO JobDispatcher] Job request c05776d0-88c5-5cad-9a0f-ae1f2b46fae6 processed succeed.
+[2025-04-02 16:53:54Z INFO Terminal] WRITE LINE: 2025-04-02 16:53:54Z: Running job: deploy-to-dev
+[2025-04-02 16:53:54Z INFO JobDispatcher] Start renew job request 0 for job ff3280ea-d5cc-54ca-b024-698f724ad7c6.
+[2025-04-02 16:53:55Z INFO JobDispatcher] Successfully renew job ff3280ea-d5cc-54ca-b024-698f724ad7c6, job is valid till 02/04/2025 17:03:53
+[2025-04-02 16:53:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2784 2820'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:53:55Z INFO ProcessInvokerWrapper] Process started with process id 18180, waiting for process exit.
+[2025-04-02 16:53:55Z INFO JobDispatcher] Send job request message to worker for job ff3280ea-d5cc-54ca-b024-698f724ad7c6.
+[2025-04-02 16:53:55Z INFO ProcessChannel] Sending message of length 19524, with hash '7a08ef27e1540c5e794f2fb14945a7dc66df33fd928df7daadfe3438bbe3f0a5'
+[2025-04-02 16:53:55Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:53:55Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:54:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:54:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:54:19Z INFO ProcessInvokerWrapper] Finished process 18180 with exit code 102, and elapsed time 00:00:24.7390384.
+[2025-04-02 16:54:19Z INFO JobDispatcher] Worker finished for job ff3280ea-d5cc-54ca-b024-698f724ad7c6. Code: 102
+[2025-04-02 16:54:19Z INFO JobDispatcher] finish job request for job ff3280ea-d5cc-54ca-b024-698f724ad7c6 with result: Failed
+[2025-04-02 16:54:19Z INFO Terminal] WRITE LINE: 2025-04-02 16:54:19Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:54:19Z INFO JobDispatcher] Stop renew job request for job ff3280ea-d5cc-54ca-b024-698f724ad7c6.
+[2025-04-02 16:54:19Z INFO JobDispatcher] job renew has been cancelled, stop renew job ff3280ea-d5cc-54ca-b024-698f724ad7c6.
+[2025-04-02 16:54:19Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:54:19Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:54:19Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:55:01Z INFO MessageListener] Message '2184779831759201976' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:55:01Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:55:01Z INFO ConfigurationStore] stored True
+[2025-04-02 16:55:01Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:55:01Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:55:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:55:01Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:01Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:01Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:55:02Z INFO JobDispatcher] Job request 0 for plan f64fe205-ddb3-4a74-b260-20b56b11609c job 50e52126-ea63-5083-af0f-c953cf7c57b2 received.
+[2025-04-02 16:55:02Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:55:02Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:55:02Z INFO JobDispatcher] Job request ff3280ea-d5cc-54ca-b024-698f724ad7c6 processed succeed.
+[2025-04-02 16:55:02Z INFO Terminal] WRITE LINE: 2025-04-02 16:55:02Z: Running job: install-pip-deps
+[2025-04-02 16:55:02Z INFO JobDispatcher] Start renew job request 0 for job 50e52126-ea63-5083-af0f-c953cf7c57b2.
+[2025-04-02 16:55:03Z INFO JobDispatcher] Successfully renew job 50e52126-ea63-5083-af0f-c953cf7c57b2, job is valid till 02/04/2025 17:05:01
+[2025-04-02 16:55:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3056 2084'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:55:03Z INFO ProcessInvokerWrapper] Process started with process id 18648, waiting for process exit.
+[2025-04-02 16:55:03Z INFO JobDispatcher] Send job request message to worker for job 50e52126-ea63-5083-af0f-c953cf7c57b2.
+[2025-04-02 16:55:03Z INFO ProcessChannel] Sending message of length 18882, with hash '323e8517f6ea5c7a971a7ab3a3c3224b896d5653ab62e2337254091e41fc5caa'
+[2025-04-02 16:55:03Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:55:03Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:55:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:55:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:55:29Z INFO ProcessInvokerWrapper] Finished process 18648 with exit code 100, and elapsed time 00:00:26.2455283.
+[2025-04-02 16:55:29Z INFO JobDispatcher] Worker finished for job 50e52126-ea63-5083-af0f-c953cf7c57b2. Code: 100
+[2025-04-02 16:55:29Z INFO JobDispatcher] finish job request for job 50e52126-ea63-5083-af0f-c953cf7c57b2 with result: Succeeded
+[2025-04-02 16:55:29Z INFO Terminal] WRITE LINE: 2025-04-02 16:55:29Z: Job install-pip-deps completed with result: Succeeded
+[2025-04-02 16:55:29Z INFO JobDispatcher] Stop renew job request for job 50e52126-ea63-5083-af0f-c953cf7c57b2.
+[2025-04-02 16:55:29Z INFO JobDispatcher] job renew has been cancelled, stop renew job 50e52126-ea63-5083-af0f-c953cf7c57b2.
+[2025-04-02 16:55:29Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:55:29Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:55:29Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:55:29Z INFO MessageListener] Message '7739597851718982572' received from session '8a720615-9f22-4149-91c2-135ce0f33cda'.
+[2025-04-02 16:55:29Z INFO ConfigurationStore] HasCredentials()
+[2025-04-02 16:55:29Z INFO ConfigurationStore] stored True
+[2025-04-02 16:55:29Z INFO CredentialManager] GetCredentialProvider
+[2025-04-02 16:55:29Z INFO CredentialManager] Creating type OAuth
+[2025-04-02 16:55:29Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-02 16:55:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\vladi\Documents\GitHub\bob\actions-runner\.credentials_rsaparams
+[2025-04-02 16:55:30Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-02 16:55:31Z INFO JobDispatcher] Job request 0 for plan f64fe205-ddb3-4a74-b260-20b56b11609c job 4c2b0fef-8304-59d6-949b-b762f7eebe4d received.
+[2025-04-02 16:55:31Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-02 16:55:31Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-02 16:55:31Z INFO JobDispatcher] Job request 50e52126-ea63-5083-af0f-c953cf7c57b2 processed succeed.
+[2025-04-02 16:55:31Z INFO Terminal] WRITE LINE: 2025-04-02 16:55:31Z: Running job: deploy-to-dev
+[2025-04-02 16:55:31Z INFO JobDispatcher] Start renew job request 0 for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d.
+[2025-04-02 16:55:31Z INFO JobDispatcher] Successfully renew job 4c2b0fef-8304-59d6-949b-b762f7eebe4d, job is valid till 02/04/2025 17:05:30
+[2025-04-02 16:55:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin\Runner.Worker.exe'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1368 2880'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\vladi\Documents\GitHub\bob\actions-runner\bin'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-02 16:55:31Z INFO ProcessInvokerWrapper] Process started with process id 12596, waiting for process exit.
+[2025-04-02 16:55:31Z INFO JobDispatcher] Send job request message to worker for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d.
+[2025-04-02 16:55:31Z INFO ProcessChannel] Sending message of length 19525, with hash '75e1f4dc37fdd38c87cd5b242fa87fb25699c482deff737cc3e7f39456ebd437'
+[2025-04-02 16:55:32Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-02 16:55:32Z INFO JobNotification] Entering StartMonitor
+[2025-04-02 16:55:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:55:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-02 16:55:57Z INFO ProcessInvokerWrapper] Finished process 12596 with exit code 102, and elapsed time 00:00:25.5588951.
+[2025-04-02 16:55:57Z INFO JobDispatcher] Worker finished for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d. Code: 102
+[2025-04-02 16:55:57Z INFO JobDispatcher] finish job request for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d with result: Failed
+[2025-04-02 16:55:57Z INFO Terminal] WRITE LINE: 2025-04-02 16:55:57Z: Job deploy-to-dev completed with result: Failed
+[2025-04-02 16:55:57Z INFO JobDispatcher] Stop renew job request for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d.
+[2025-04-02 16:55:57Z INFO JobDispatcher] job renew has been cancelled, stop renew job 4c2b0fef-8304-59d6-949b-b762f7eebe4d.
+[2025-04-02 16:55:57Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-02 16:55:57Z INFO JobNotification] Entering EndMonitor
+[2025-04-02 16:55:57Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-02 16:56:01Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-04-02 16:56:01Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=8a720615-9f22-4149-91c2-135ce0f33cda&status=Busy&runnerVersion=2.323.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2025-04-02 16:56:01Z ERR  BrokerServer] Catch exception during request
+[2025-04-02 16:56:01Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2025-04-02 16:56:01Z ERR  BrokerServer] #####################################################
+[2025-04-02 16:56:01Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2025-04-02 16:56:01Z ERR  BrokerServer] #####################################################
+[2025-04-02 16:56:01Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2025-04-02 16:56:01Z ERR  BrokerServer] #####################################################
+[2025-04-02 16:56:01Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2025-04-02 16:56:01Z WARN BrokerServer] Back off 14.02 seconds before next retry. 4 attempt left.
+[2025-04-02 16:56:01Z INFO MessageListener] Get next message has been cancelled.
+[2025-04-02 16:56:01Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-04-02 16:56:01Z INFO JobDispatcher] Ensure WorkerDispatcher for job 4c2b0fef-8304-59d6-949b-b762f7eebe4d run to finish, cancel any running job.
+[2025-04-02 16:56:01Z INFO JobDispatcher] Job request 4c2b0fef-8304-59d6-949b-b762f7eebe4d processed succeed.
+[2025-04-02 16:56:01Z INFO Runner] Deleting Runner Session...
+[2025-04-02 16:56:01Z INFO Listener] Runner execution been cancelled.

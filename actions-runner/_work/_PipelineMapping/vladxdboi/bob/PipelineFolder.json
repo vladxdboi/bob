@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "vladxdboi/bob",
+  "pipelineDirectory": "bob",
+  "workspaceDirectory": "bob\\bob",
+  "repositories": {
+    "vladxdboi/bob": {
+      "repositoryPath": "bob\\bob",
+      "lastRunOn": "04/02/2025 15:30:59 +03:00"
+    }
+  },
+  "lastRunOn": "04/02/2025 22:40:11 +03:00"
+}
