@@ -1,0 +1,78 @@
+# This is a basic workflow to help you get started with Actions
+
+name: bob
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  install-pip-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: install-pip-deps
+
+  deploy-to-dev:
+    runs-on: ubuntu-latest
+    needs: install-pip-deps
+    steps:
+      - name: Deploy to Dev
+        run: deploy-to-dev
+
+  tests-on-dev:
+    runs-on: ubuntu-latest
+    needs: deploy-to-dev
+    steps:
+      - name: Run tests on Dev
+        run: tests-on-dev
+
+  deploy-to-staging:
+    runs-on: ubuntu-latest
+    needs: tests-on-dev
+    steps:
+      - name: Deploy to Staging
+        run: deploy-to-staging
+
+  tests-on-staging:
+    runs-on: ubuntu-latest
+    needs: deploy-to-staging
+    steps:
+      - name: Run tests on Staging
+        run: tests-on-staging
+
+  deploy-to-preprod:
+    runs-on: ubuntu-latest
+    needs: tests-on-staging
+    steps:
+      - name: Deploy to Preprod
+        run: deploy-to-preprod
+
+  tests-on-preprod:
+    runs-on: ubuntu-latest
+    needs: deploy-to-preprod
+    steps:
+      - name: Run tests on Preprod
+        run: tests-on-preprod
+
+  deploy-to-prod:
+    runs-on: ubuntu-latest
+    needs: tests-on-preprod
+    steps:
+      - name: Deploy to Prod
+        run: deploy-to-prod
+
+  tests-on-prod:
+    runs-on: ubuntu-latest
+    needs: deploy-to-prod
+    steps:
+      - name: Run tests on Prod
+        run: tests-on-prod
+
