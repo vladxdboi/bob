@@ -11,9 +11,6 @@ jobs:
   install-pip-deps:
     runs-on: self-hosted
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Clone python-greetings repository
         uses: actions/checkout@v4
         with:
@@ -30,9 +27,6 @@ jobs:
     runs-on: self-hosted
     needs: install-pip-deps
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Clone python-greetings repository
         uses: actions/checkout@v4
         with:
@@ -59,9 +53,6 @@ jobs:
     runs-on: self-hosted
     needs: deploy-to-dev
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Clone course-js-api-framework repository
         uses: actions/checkout@v4
         with:
@@ -69,8 +60,10 @@ jobs:
           path: course-js-api-framework
 
       - name: Installing dependencies
+        working-directory: course-js-api-framework
         run: npm install
       - name: Running test
+        working-directory: course-js-api-framework
         run: npm run greetings greetings_dev
         
   deploy-to-staging:
