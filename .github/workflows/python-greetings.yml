@@ -42,7 +42,7 @@ jobs:
       - name: Stop existing service
         working-directory: python-greetings
         run: | 
-            pm2 delete "greetings-app-DEV"
+            pm2 delete "greetings-app-dev"
             if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
             exit 0
       - name: Start application
@@ -56,7 +56,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Clone python-greetings repository
+      - name: Clone course-js-api-framework repository
         uses: actions/checkout@v4
         with:
           repository: mtararujs/course-js-api-framework
