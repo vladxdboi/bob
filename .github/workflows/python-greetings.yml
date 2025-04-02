@@ -36,7 +36,7 @@ jobs:
       - name: Stop existing service
         working-directory: python-greetings
         run: | 
-            pm2 delete "greetings-app-DEV"
+            pm2 delete "greetings-app-dev"
             if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
             exit 0
       - name: Start application
@@ -47,14 +47,16 @@ jobs:
     runs-on: self-hosted
     needs: deploy-to-dev
     steps:
+
+      - name: Wait for application to start
+        run: sleep 10  # Wait 10 seconds (adjust as needed)
+
+      - name: Check if app is running
+        run: curl -I http://127.0.0.1:7001 || exit 1
+        
       - name: Installing dependencies
         working-directory: course-js-api-framework
         run: npm install
-      - name: Set environment URL
-        working-directory: course-js-api-framework
-        run: |
-          echo "GREETINGS_APP_DEV_URL=http://127.0.0.1:7001" >> .env
-          cat .env
       - name: Running test
         working-directory: course-js-api-framework
         run: npm run greetings greetings_dev
