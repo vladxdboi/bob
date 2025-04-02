@@ -41,7 +41,7 @@ jobs:
 
       - name: Stop existing service
         shell: bash
-        run: pm2 delete "greetings-app-dev" & set "errorlevel=0"
+        run: pm2 delete "greetings-app-dev" && set "errorlevel=0"
 
       - name: Start application
         working-directory: python-greetings
