@@ -41,7 +41,7 @@ jobs:
             exit 0
       - name: Start application
         working-directory: python-greetings
-        run: pm2 start -f app.py --name greetings-app-dev --interpreter python --env PORT=7001
+        run: pm2 start app.py --name greetings-app-dev --interpreter python --env PORT=7001
 
   tests-on-dev:
     runs-on: self-hosted
@@ -65,19 +65,15 @@ jobs:
     runs-on: self-hosted
     needs: tests-on-dev
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Clone python-greetings repository
-        uses: actions/checkout@v4
-        with:
-          repository: mtararujs/python-greetings
-          path: python-greetings
-
       - name: Stop existing service
-        run: pm2 delete "greetings-app-staging" && set "errorlevel=0" 
+        working-directory: python-greetings
+        run: | 
+            pm2 delete "greetings-app-staging"
+            if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
+            exit 0
       - name: Start application
-        run: pm2 start -n "greetings-app-staging" app.py -- 7002
+        working-directory: python-greetings
+        run: pm2 start -f app.py --name greetings-app-staging --interpreter python --env PORT=7002
 
   tests-on-staging:
     runs-on: self-hosted
