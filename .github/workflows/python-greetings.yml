@@ -38,7 +38,7 @@ jobs:
         run: pm2 delete greetings-app-dev & set "errorlevel=0"
       - name: Start application
         working-directory: python-greetings
-        run: pm2 start app.py --name greetings-app-dev --interpreter python --env PORT=7001
+        run: pm2 start -f app.py --name greetings-app-dev --interpreter python --env PORT=7001
 
   tests-on-dev:
     runs-on: self-hosted
