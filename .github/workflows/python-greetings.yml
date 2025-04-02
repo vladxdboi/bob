@@ -30,10 +30,21 @@ jobs:
     runs-on: ubuntu-latest
     needs: install-pip-deps
     steps:
-      - name: Deploy to Dev
-        run: |
-          echo "Deploying to Dev environment"
-          deploy-to-dev
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone python-greetings repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtararujs/python-greetings
+          path: python-greetings
+
+      - name: Stop existing service
+        run: pm2 delete greetings-app-dev || true
+
+      - name: Start application
+        working-directory: python-greetings
+        run: pm2 start app.py --name greetings-app-dev -- --port 7001
 
   tests-on-dev:
     runs-on: ubuntu-latest
