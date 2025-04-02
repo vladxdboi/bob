@@ -21,7 +21,7 @@ jobs:
           path: python-greetings
 
       - name: Install dependencies
-        working-directory: bobs
+        working-directory: python-greetings
         run: |
           echo "Starting dependency installation..."
           pip3 install -r requirements.txt
