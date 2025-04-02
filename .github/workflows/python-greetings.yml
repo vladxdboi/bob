@@ -48,6 +48,12 @@ jobs:
       - name: Start application
         working-directory: python-greetings
         run: pm2 start app.py --name greetings-app-dev --interpreter python --env PORT=7001
+      - name: Stop existing service
+        working-directory: python-greetings
+        run: | 
+            pm2 delete "greetings-app-dev"
+            if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
+            exit 0
 
   tests-on-dev:
     runs-on: self-hosted
