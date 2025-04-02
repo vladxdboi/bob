@@ -40,10 +40,7 @@ jobs:
           path: python-greetings
 
       - name: Stop existing service
-        shell: pwsh
-        run: |
-          pm2 delete greetings-app-dev
-          EXIT /B 0
+        run: pm2 delete greetings-app-dev || Write-Output "App not running (ignoring)"
 
       - name: Start application
         working-directory: python-greetings
