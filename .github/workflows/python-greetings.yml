@@ -35,10 +35,7 @@ jobs:
     steps:
       - name: Stop existing service
         working-directory: python-greetings
-        run: | 
-            pm2 delete "greetings-app-dev"
-            if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
-            exit 0
+        run: pm2 delete greetings-app-<vides_nosaukums> & set "errorlevel=0"
       - name: Start application
         working-directory: python-greetings
         run: pm2 start app.py --name greetings-app-dev --interpreter python --env PORT=7001
