@@ -25,6 +25,7 @@ jobs:
         run: |
           echo "Starting dependency installation..."
           pip3 install -r requirements.txt
+          npm install
 
   deploy-to-dev:
     runs-on: self-hosted
