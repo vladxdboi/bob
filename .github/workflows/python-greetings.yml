@@ -40,7 +40,7 @@ jobs:
           path: python-greetings
 
       - name: Stop existing service
-        run: pm2 delete "greetings-app-dev" && set "errorlevel=0" 
+        run: pm2 delete "greetings-app-dev" & set "errorlevel=0" 
       - name: Start application
         run: pm2 start -n "greetings-app-dev" app.py -- 7001
 
