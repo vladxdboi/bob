@@ -53,11 +53,11 @@ jobs:
       - name: Set environment URL
         working-directory: course-js-api-framework
         run: |
-          echo "GREETINGS_APP_DEV_URL=http://localhost:7001" >> .env
+          echo "GREETINGS_APP_DEV_URL=http://127.0.0.1:7001" >> .env
           cat .env
       - name: Running test
         working-directory: course-js-api-framework
-        run: npm run greetings greetings-app-dev
+        run: npm run greetings greetings_dev
         
   deploy-to-staging:
     runs-on: self-hosted
