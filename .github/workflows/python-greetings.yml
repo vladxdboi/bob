@@ -41,7 +41,8 @@ jobs:
             exit 0
       - name: Start application
         working-directory: python-greetings
-        run: pm2 start app.py --name greetings-app-dev --port 7001
+        shell: cmd
+        run: pm2 start app.py --name greetings-app-dev -- --port 7001
 
   tests-on-dev:
     runs-on: self-hosted
