@@ -40,12 +40,13 @@ jobs:
           path: python-greetings
 
       - name: Stop existing service
+        working-directory: python-greetings
         run: | 
             pm2 delete "greetings-app-DEV"
             if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
             exit 0
       - name: Start application
-        run: pm2 start python-greetings/app.py -- 7001
+        run: pm2 start app.py -- 7001
 
   tests-on-dev:
     runs-on: self-hosted
