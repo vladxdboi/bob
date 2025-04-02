@@ -9,7 +9,7 @@ on:
 
 jobs:
   install-pip-deps:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
           pip3 install -r requirements.txt
 
   deploy-to-dev:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: install-pip-deps
     steps:
       - name: Checkout repository
@@ -47,7 +47,7 @@ jobs:
         run: pm2 start app.py --name greetings-app-dev -- --port 7001
 
   tests-on-dev:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: deploy-to-dev
     steps:
       - name: Run tests on Dev
@@ -56,7 +56,7 @@ jobs:
           tests-on-dev
 
   deploy-to-staging:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: tests-on-dev
     steps:
       - name: Deploy to Staging
@@ -65,7 +65,7 @@ jobs:
           deploy-to-staging
 
   tests-on-staging:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: deploy-to-staging
     steps:
       - name: Run tests on Staging
@@ -74,7 +74,7 @@ jobs:
           tests-on-staging
 
   deploy-to-preprod:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: tests-on-staging
     steps:
       - name: Deploy to Preprod
@@ -83,7 +83,7 @@ jobs:
           deploy-to-preprod
 
   tests-on-preprod:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: deploy-to-preprod
     steps:
       - name: Run tests on Preprod
@@ -92,7 +92,7 @@ jobs:
           tests-on-preprod
 
   deploy-to-prod:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: tests-on-preprod
     steps:
       - name: Deploy to Prod
@@ -101,7 +101,7 @@ jobs:
           deploy-to-prod
 
   tests-on-prod:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: deploy-to-prod
     steps:
       - name: Run tests on Prod
