@@ -41,7 +41,7 @@ jobs:
         run: pm2 start -f app.py --name greetings-app-dev --interpreter python --env PORT=7001
       - name: Stop existing service
         working-directory: python-greetings
-        run: pm2 delete greetings-app-dev & set "errorlevel=0"
+        run: pm2 delete greetings-app-dev
 
   tests-on-dev:
     runs-on: self-hosted
