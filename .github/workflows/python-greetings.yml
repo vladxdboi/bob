@@ -41,11 +41,11 @@ jobs:
 
       - name: Stop existing service
         run: |
-            pm2 delete "greetings-app-DEV"
+            pm2 delete "greetings-app-dev"
             if ($?) { Write-Host "Service stopped successfully" } else { Write-Host "Service not found, continuing..." }
             exit 0
       - name: Start application
-        run: pm2 start app.py --name "greetings-app-DEV" -- --port 7001
+        run: pm2 start --n "greetings-app-dev" app.py -- 7001
 
   tests-on-dev:
     runs-on: self-hosted
