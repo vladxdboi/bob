@@ -49,7 +49,7 @@ jobs:
         run: npm install
       - name: Running test
         working-directory: course-js-api-framework
-        run: npm run greetings greetings_dev
+        run: npm run greetings greetings-app-dev
         
   deploy-to-staging:
     runs-on: self-hosted
