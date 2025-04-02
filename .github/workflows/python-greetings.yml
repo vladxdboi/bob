@@ -93,6 +93,7 @@ jobs:
             exit 0
       - name: Start application
         working-directory: python-greetings
+        shell: cmd
         run: pm2 start -f app.py --name "greetings-app-preprod" -- --port 7003
 
   tests-on-preprod:
@@ -118,6 +119,7 @@ jobs:
             exit 0 
       - name: Start application
         working-directory: python-greetings
+        shell: cmd
         run: pm2 start -f app.py --name "greetings-app-prod" -- --port 7004
 
   tests-on-prod:
