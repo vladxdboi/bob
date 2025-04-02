@@ -132,3 +132,15 @@ jobs:
       - name: Running test
         working-directory: course-js-api-framework
         run: npm run greetings greetings_prod
+
+  cleanup:
+    runs-on: self-hosted
+    needs: tests-on-prod
+    steps:
+      - name: Deleting pm2 instances
+        run: |
+            pm2 delete "greetings-app-dev"
+            pm2 delete "greetings-app-staging"
+            pm2 delete "greetings-app-preprod"
+            pm2 delete "greetings-app-prod"
+            
